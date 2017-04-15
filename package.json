@@ -1,0 +1,61 @@
+{
+    "author": "nILS Podewski",
+    "dependencies": {
+        "pebble-fctx": "^1.6.1"
+    },
+    "keywords": [
+        "pebble-app"
+    ],
+    "name": "nilswatch",
+    "pebble": {
+        "displayName": "nILSWatch",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/no_phone.png",
+                    "name": "BMP_NO_BLUETOOTH",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "data/font.ffont",
+                    "name": "FONT_NUMBERS",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/font_bold.ffont",
+                    "name": "FONT_NUMBERS_BOLD",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "images/calendar.png",
+                    "name": "BMP_CALENDAR",
+                    "storageFormat": "pbi",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/battery.png",
+                    "name": "BMP_BATTERY",
+                    "storageFormat": "png",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "diorite"
+        ],
+        "uuid": "badc0ffe-f92d-446b-8fea-be134c144bfa",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.4.0"
+}
