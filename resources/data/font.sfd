@@ -1,0 +1,1517 @@
+SplineFontDB: 3.0
+FontName: font_bold
+FullName: font_bold
+FamilyName: font_bold
+Weight: Bold
+Copyright: 
+Version: 001.001
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 756
+Descent: 244
+InvalidEm: 0
+sfntRevision: 0x00011999
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 518 370446175 433797]
+UniqueID: 4236668
+StyleMap: 0x0020
+FSType: 4
+OS2Version: 2
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 0
+CreationTime: 1075377811
+ModificationTime: 1492497530
+PfmFamily: 17
+TTFWeight: 600
+TTFWidth: 5
+LineGap: 200
+VLineGap: 0
+Panose: 2 11 7 4 2 2 2 2 2 4
+OS2TypoAscent: 756
+OS2TypoAOffset: 0
+OS2TypoDescent: -244
+OS2TypoDOffset: 0
+OS2TypoLinegap: 200
+OS2WinAscent: 957
+OS2WinAOffset: 0
+OS2WinDescent: 240
+OS2WinDOffset: 0
+HheadAscent: 756
+HheadAOffset: 0
+HheadDescent: -244
+HheadDOffset: 0
+OS2SubXSize: 650
+OS2SubYSize: 600
+OS2SubXOff: 0
+OS2SubYOff: 75
+OS2SupXSize: 700
+OS2SupYSize: 650
+OS2SupXOff: 0
+OS2SupYOff: 477
+OS2StrikeYSize: 50
+OS2StrikeYPos: 250
+OS2CapHeight: 708
+OS2XHeight: 498
+OS2Vendor: 'LINO'
+OS2CodePages: 2000009b.00000000
+OS2UnicodeRanges: 800000af.5000205b.00000000.00000000
+Lookup: 1 0 0 "'aalt' Access All Alternates in Latin lookup 0" { "'aalt' Access All Alternates in Latin lookup 0 subtable"  } ['aalt' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 3 0 0 "'aalt' Access All Alternates in Latin lookup 1" { "'aalt' Access All Alternates in Latin lookup 1 subtable"  } ['aalt' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 2" { "'locl' Localized Forms in Latin lookup 2 subtable"  } ['    ' ('latn' <'ROM ' > ) 'locl' ('latn' <'ROM ' > ) ]
+Lookup: 3 0 0 "'ornm' Ornaments in Latin lookup 3" { "'ornm' Ornaments in Latin lookup 3 subtable"  } ['ornm' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'onum' Oldstyle Figures in Latin lookup 4" { "'onum' Oldstyle Figures in Latin lookup 4 subtable" ("oldstyle") } ['onum' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'smcp' Lowercase to Small Capitals in Latin lookup 5" { "'smcp' Lowercase to Small Capitals in Latin lookup 5 subtable"  } ['smcp' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'smcp' Lowercase to Small Capitals in Latin lookup 6" { "'smcp' Lowercase to Small Capitals in Latin lookup 6 subtable"  } ['smcp' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'dflt' > ) ]
+Lookup: 1 0 0 "'smcp' Lowercase to Small Capitals in Latin lookup 7" { "'smcp' Lowercase to Small Capitals in Latin lookup 7 subtable"  } ['smcp' ('latn' <'TRK ' > ) ]
+Lookup: 1 0 0 "'c2sc' Capitals to Small Capitals in Latin lookup 8" { "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable"  } ['c2sc' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'case' Case-Sensitive Forms in Latin lookup 9" { "'case' Case-Sensitive Forms in Latin lookup 9 subtable"  } ['case' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'case' Case-Sensitive Forms in Latin lookup 10" { "'case' Case-Sensitive Forms in Latin lookup 10 subtable"  } ['case' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'case' Case-Sensitive Forms in Latin lookup 11" { "'case' Case-Sensitive Forms in Latin lookup 11 subtable"  } ['case' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'case' Case-Sensitive Forms in Latin lookup 12" { "'case' Case-Sensitive Forms in Latin lookup 12 subtable"  } ['case' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'dflt' > ) ]
+Lookup: 1 0 0 "'case' Case-Sensitive Forms in Latin lookup 13" { "'case' Case-Sensitive Forms in Latin lookup 13 subtable"  } ['case' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'case' Case-Sensitive Forms in Latin lookup 14" { "'case' Case-Sensitive Forms in Latin lookup 14 subtable"  } ['case' ('latn' <'TRK ' > ) ]
+Lookup: 6 0 0 "'ordn' Ordinals in Latin lookup 15" { "'ordn' Ordinals in Latin lookup 15 contextual 0"  "'ordn' Ordinals in Latin lookup 15 contextual 1"  "'ordn' Ordinals in Latin lookup 15 contextual 2"  "'ordn' Ordinals in Latin lookup 15 contextual 3"  "'ordn' Ordinals in Latin lookup 15 contextual 4"  } ['ordn' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'frac' Diagonal Fractions in Latin lookup 16" { "'frac' Diagonal Fractions in Latin lookup 16 subtable"  } ['frac' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'sups' Superscript in Latin lookup 17" { "'sups' Superscript in Latin lookup 17 subtable" ("superior") } ['frac' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) 'sups' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'sups' Superscript in Latin lookup 18" { "'sups' Superscript in Latin lookup 18 subtable" ("superior") } ['frac' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) 'sups' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 6 0 0 "'frac' Diagonal Fractions in Latin lookup 19" { "'frac' Diagonal Fractions in Latin lookup 19 contextual 0"  "'frac' Diagonal Fractions in Latin lookup 19 contextual 1"  "'frac' Diagonal Fractions in Latin lookup 19 contextual 2"  "'frac' Diagonal Fractions in Latin lookup 19 contextual 3"  "'frac' Diagonal Fractions in Latin lookup 19 contextual 4"  } ['frac' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'sups' Superscript in Latin lookup 20" { "'sups' Superscript in Latin lookup 20 subtable" ("superior") } ['sups' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 4 0 0 "'dpng' Dipthongs (Obsolete) in Latin lookup 21" { "'dpng' Dipthongs (Obsolete) in Latin lookup 21 subtable"  } ['dlig' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) 'dpng' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 22" { "'dlig' Discretionary Ligatures in Latin lookup 22 subtable"  } ['dlig' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 23" { "'liga' Standard Ligatures in Latin lookup 23 subtable"  } ['liga' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 24" { "'liga' Standard Ligatures in Latin lookup 24 subtable"  } ['liga' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 25" { "'liga' Standard Ligatures in Latin lookup 25 subtable"  } ['liga' ('latn' <'AFK ' 'NLD ' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 26" { "'liga' Standard Ligatures in Latin lookup 26 subtable"  } ['liga' ('latn' <'AFK ' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 27" { "Single Substitution lookup 27 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 28" { "Ligature Substitution lookup 28 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 29" { "Ligature Substitution lookup 29 subtable"  } []
+Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"  } ['kern' ('latn' <'AFK ' 'DEU ' 'NLD ' 'ROM ' 'TRK ' 'dflt' > ) ]
+MarkAttachClasses: 1
+DEI: 91125
+KernClass2: 70+ 77 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"
+ 1 F
+ 1 P
+ 1 V
+ 1 X
+ 1 b
+ 4 b.sc
+ 9 braceleft
+ 11 bracketleft
+ 5 comma
+ 4 d.sc
+ 10 exclamdown
+ 1 f
+ 4 f.sc
+ 13 guillemotleft
+ 14 guillemotright
+ 13 guilsinglleft
+ 14 guilsinglright
+ 1 p
+ 4 p.sc
+ 9 parenleft
+ 12 questiondown
+ 12 quotedblbase
+ 12 quotedblleft
+ 13 quotedblright
+ 9 quoteleft
+ 10 quoteright
+ 14 quotesinglbase
+ 10 seven.onum
+ 1 v
+ 4 v.sc
+ 1 x
+ 4 x.sc
+ 73 A Aring Atilde Aogonek Amacron Acircumflex Agrave Aacute Abreve Adieresis
+ 47 C Ccircumflex Cdotaccent Ccedilla Ccaron Cacute
+ 19 D Dcaron Dcroat Eth
+ 81 E AE Eacute Edieresis Egrave Emacron Ebreve Ecircumflex Edotaccent Ecaron Eogonek
+ 44 G Gbreve Gcircumflex Gcommaaccent Gdotaccent
+ 14 K Kcommaaccent
+ 28 L Lcaron Lacute Lcommaaccent
+ 80 O Oslash Ocircumflex Oacute Odieresis Ograve Omacron Obreve Ohungarumlaut Otilde
+ 28 R Racute Rcaron Rcommaaccent
+ 49 S Scaron Scedilla Sacute Scircumflex Scommaaccent
+ 29 T Tcommaaccent Tcaron uni021A
+ 87 U Uacute Ubreve Utilde Ucircumflex Uogonek Uring Umacron Ugrave Uhungarumlaut Udieresis
+ 13 W Wcircumflex
+ 30 Y Yacute Ydieresis Ycircumflex
+ 26 Z Zcaron Zacute Zdotaccent
+ 73 a aacute abreve acircumflex agrave adieresis aogonek aring amacron atilde
+ 103 aring.sc aacute.sc a.sc aogonek.sc atilde.sc acircumflex.sc agrave.sc amacron.sc abreve.sc adieresis.sc
+ 65 ccedilla.sc ccircumflex.sc ccaron.sc cacute.sc c.sc cdotaccent.sc
+ 84 e ae oe ecaron edotaccent ebreve eogonek eacute edieresis ecircumflex emacron egrave
+ 14 hyphen uni00AD
+ 36 l.sc lacute.sc fl.sc lcommaaccent.sc
+ 80 o oslash ograve omacron ohungarumlaut otilde odieresis ocircumflex oacute obreve
+ 110 ohungarumlaut.sc otilde.sc ocircumflex.sc obreve.sc oacute.sc oslash.sc omacron.sc ograve.sc o.sc odieresis.sc
+ 15 period ellipsis
+ 28 r racute rcaron rcommaaccent
+ 13 uni00A0 space
+ 29 t uni021B tcaron tcommaaccent
+ 30 tcommaaccent.sc t.sc tcaron.sc
+ 13 w wcircumflex
+ 19 wcircumflex.sc w.sc
+ 30 y yacute ydieresis ycircumflex
+ 42 ydieresis.sc yacute.sc ycircumflex.sc y.sc
+ 16 J Jcircumflex IJ
+ 44 g gdotaccent gcircumflex gbreve gcommaaccent
+ 14 k kcommaaccent
+ 20 k.sc kcommaaccent.sc
+ 67 scommaaccent.sc scircumflex.sc scaron.sc s.sc scedilla.sc sacute.sc
+ 120 umacron.sc ugrave.sc udieresis.sc ucircumflex.sc uhungarumlaut.sc uring.sc ubreve.sc utilde.sc uogonek.sc u.sc uacute.sc
+ 76 A AE Aring Atilde Aogonek Amacron Acircumflex Agrave Aacute Abreve Adieresis
+ 13 J Jcircumflex
+ 76 a ae aacute abreve acircumflex agrave adieresis aogonek aring amacron atilde
+ 109 aring.sc aacute.sc a.sc aogonek.sc atilde.sc acircumflex.sc agrave.sc amacron.sc ae.sc abreve.sc adieresis.sc
+ 78 e ecaron edotaccent ebreve eogonek eacute edieresis ecircumflex emacron egrave
+ 108 ebreve.sc emacron.sc eacute.sc edieresis.sc ecaron.sc eogonek.sc e.sc ecircumflex.sc edotaccent.sc egrave.sc
+ 14 hyphen uni00AD
+ 72 i dotlessi idieresis imacron iogonek ij igrave icircumflex itilde iacute
+ 90 iogonek.sc imacron.sc ij.sc idieresis.sc iacute.sc i.sc igrave.sc icircumflex.sc itilde.sc
+ 19 j.sc jcircumflex.sc
+ 48 l.sc lacute.sc lcaron.sc ldot.sc lcommaaccent.sc
+ 83 o oslash oe ograve omacron ohungarumlaut otilde odieresis ocircumflex oacute obreve
+ 116 ohungarumlaut.sc oe.sc otilde.sc ocircumflex.sc obreve.sc oacute.sc oslash.sc omacron.sc ograve.sc o.sc odieresis.sc
+ 15 period ellipsis
+ 28 r racute rcaron rcommaaccent
+ 40 r.sc racute.sc rcaron.sc rcommaaccent.sc
+ 87 u uhungarumlaut utilde umacron ucircumflex ugrave uring uacute uogonek udieresis ubreve
+ 120 umacron.sc ugrave.sc udieresis.sc ucircumflex.sc uhungarumlaut.sc uring.sc ubreve.sc utilde.sc uogonek.sc u.sc uacute.sc
+ 30 y yacute ydieresis ycircumflex
+ 42 ydieresis.sc yacute.sc ycircumflex.sc y.sc
+ 29 T Tcommaaccent Tcaron uni021A
+ 30 Y Yacute Ydieresis Ycircumflex
+ 16 fi.sc fl.sc f.sc
+ 19 hcircumflex.sc h.sc
+ 35 n ntilde ncaron ncommaaccent nacute
+ 50 n.sc nacute.sc ncommaaccent.sc ntilde.sc ncaron.sc
+ 49 s scommaaccent scircumflex scaron scedilla sacute
+ 67 scommaaccent.sc scircumflex.sc scaron.sc s.sc scedilla.sc sacute.sc
+ 47 C Ccircumflex Cdotaccent Ccedilla Ccaron Cacute
+ 44 G Gbreve Gcircumflex Gcommaaccent Gdotaccent
+ 80 O Oslash Ocircumflex Oacute Odieresis Ograve Omacron Obreve Ohungarumlaut Otilde
+ 13 uni00A0 space
+ 22 j jcircumflex dotlessj
+ 30 tcommaaccent.sc t.sc tcaron.sc
+ 38 z.sc zcaron.sc zacute.sc zdotaccent.sc
+ 7 f fi fl
+ 29 t uni021B tcaron tcommaaccent
+ 13 W Wcircumflex
+ 87 U Uacute Ubreve Utilde Ucircumflex Uogonek Uring Umacron Ugrave Uhungarumlaut Udieresis
+ 13 w wcircumflex
+ 19 wcircumflex.sc w.sc
+ 47 c cdotaccent ccaron ccedilla ccircumflex cacute
+ 65 ccedilla.sc ccircumflex.sc ccaron.sc cacute.sc c.sc cdotaccent.sc
+ 15 d dcroat dcaron
+ 44 g gdotaccent gcircumflex gbreve gcommaaccent
+ 59 gbreve.sc g.sc gdotaccent.sc gcommaaccent.sc gcircumflex.sc
+ 1 Q
+ 1 V
+ 12 quotedblleft
+ 13 quotedblright
+ 9 quoteleft
+ 10 quoteright
+ 10 registered
+ 9 trademark
+ 1 v
+ 4 v.sc
+ 2 OE
+ 1 X
+ 5 comma
+ 5 colon
+ 13 guillemotleft
+ 14 guillemotright
+ 13 guilsinglleft
+ 14 guilsinglright
+ 9 semicolon
+ 1 q
+ 4 q.sc
+ 1 x
+ 10 seven.onum
+ 4 x.sc
+ 8 one.onum
+ 26 Z Zcaron Zacute Zdotaccent
+ 13 h hcircumflex
+ 26 z zcaron zdotaccent zacute
+ 24 dcroat.sc dcaron.sc d.sc
+ 49 S Scaron Scedilla Sacute Scircumflex Scommaaccent
+ 0 {} -54 {} -144 {} -48 {} -60 {} -48 {} -30 {} -12 {} -18 {} -30 {} -144 {} -30 {} -48 {} -42 {} -96 {} -42 {} -30 {} -42 {} -30 {} -18 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} -56 {} -96 {} -65 {} -18 {} -36 {} -24 {} -18 {} 0 {} -18 {} -65 {} -42 {} -144 {} -46 {} -18 {} -44 {} -24 {} -42 {} -24 {} -6 {} -18 {} -18 {} -18 {} -46 {} -18 {} -48 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} -42 {} -48 {} -42 {} -42 {} -24 {} -18 {} -42 {} 0 {} 0 {} -42 {} -42 {} -84 {} 0 {} 0 {} -42 {} -42 {} -24 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} -12 {} -12 {} -18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} -30 {} -25 {} -24 {} -24 {} 0 {} -24 {} 0 {} 0 {} -25 {} -24 {} 0 {} 0 {} 0 {} -24 {} -24 {} -25 {} -42 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -25 {} -25 {} -25 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 48 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 24 {} 0 {} 0 {} 0 {} -21 {} -15 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -42 {} 0 {} 0 {} 0 {} 0 {} 0 {} -66 {} 0 {} 0 {} -12 {} -72 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -48 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -84 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 48 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} -36 {} -72 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 60 {} -30 {} 0 {} 0 {} 0 {} -36 {} -24 {} -12 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -72 {} -120 {} -30 {} -78 {} -42 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -42 {} -42 {} -90 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 18 {} 18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 18 {} 0 {} 0 {} 0 {} -42 {} -42 {} -42 {} -42 {} -42 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -120 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -72 {} -108 {} -30 {} -66 {} -42 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -42 {} -42 {} -90 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 18 {} 18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 18 {} 0 {} 0 {} 0 {} -42 {} -42 {} -42 {} -42 {} -42 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -48 {} 0 {} -60 {} -78 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} -60 {} -90 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -48 {} -48 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} -36 {} -72 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 60 {} -30 {} 0 {} 0 {} 0 {} -24 {} -24 {} -12 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -48 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} -48 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} -6 {} -36 {} -60 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} -18 {} -18 {} -18 {} 0 {} -30 {} 0 {} 0 {} 0 {} -12 {} -14 {} -6 {} -6 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} -30 {} -48 {} -60 {} -48 {} -60 {} -78 {} -50 {} -6 {} -6 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} -18 {} -18 {} -12 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} -24 {} -6 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} -18 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} -18 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} -60 {} 0 {} -18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -48 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -25 {} -48 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} -36 {} -48 {} -48 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} -24 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} -12 {} -12 {} -30 {} -12 {} -24 {} 0 {} -12 {} 0 {} -12 {} -30 {} -36 {} 0 {} 0 {} -12 {} -30 {} -36 {} -24 {} -54 {} -12 {} -6 {} 0 {} -12 {} 0 {} -12 {} 0 {} 0 {} -33 {} -33 {} -33 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} -33 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} -36 {} -33 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} -18 {} -18 {} 0 {} 0 {} 0 {} -12 {} -12 {} -36 {} -42 {} -86 {} -86 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} -30 {} -30 {} -24 {} 0 {} -48 {} 0 {} 0 {} 0 {} -48 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} -54 {} -84 {} -84 {} -72 {} -72 {} -120 {} -70 {} -12 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} -36 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} -48 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} -28 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -25 {} -48 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} -18 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} -12 {} 0 {} 0 {} 0 {} -12 {} -6 {} -6 {} -6 {} -12 {} -7 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} -6 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} -48 {} -16 {} -21 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -42 {} 0 {} 0 {} -6 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} -108 {} -96 {} -96 {} -96 {} -72 {} -90 {} -12 {} -72 {} 0 {} 0 {} -96 {} -96 {} -78 {} -90 {} -72 {} -90 {} -90 {} -96 {} -96 {} 0 {} -12 {} 0 {} -72 {} 0 {} 0 {} -96 {} -96 {} -30 {} -30 {} -30 {} -24 {} 0 {} 0 {} -66 {} 0 {} 0 {} 0 {} 0 {} -96 {} -96 {} -96 {} -96 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -96 {} -96 {} -30 {} 0 {} -78 {} -72 {} -60 {} -48 {} -60 {} -36 {} -72 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} -18 {} -78 {} 0 {} 0 {} 0 {} -14 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} -36 {} -36 {} -36 {} -30 {} -12 {} 0 {} -30 {} 0 {} 0 {} -36 {} -30 {} -66 {} -24 {} -30 {} -24 {} -24 {} -24 {} -24 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 18 {} 18 {} 18 {} 18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -66 {} -24 {} -24 {} -18 {} -18 {} -18 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} -120 {} -93 {} -102 {} -93 {} -90 {} -90 {} -24 {} -90 {} 0 {} 0 {} -93 {} -102 {} -78 {} -78 {} -90 {} -80 {} -90 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -90 {} -90 {} -28 {} -28 {} -28 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -93 {} -90 {} -93 {} 0 {} 0 {} -28 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -72 {} -72 {} -24 {} 0 {} -78 {} -60 {} -60 {} -24 {} -36 {} -24 {} -60 {} -93 {} -102 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -90 {} 0 {} 0 {} 0 {} 0 {} -12 {} -12 {} -12 {} -12 {} -36 {} 0 {} -12 {} 0 {} 0 {} -12 {} -12 {} 0 {} 0 {} 0 {} -6 {} -18 {} -18 {} -18 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} -18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -48 {} 0 {} -48 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} -6 {} 0 {} 0 {} -6 {} 0 {} 0 {} 0 {} -48 {} 0 {} -42 {} -30 {} -60 {} 0 {} -18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -90 {} -90 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} -60 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} -48 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -42 {} 0 {} -24 {} 0 {} 0 {} -24 {} 0 {} 0 {} -42 {} -42 {} -30 {} -30 {} -60 {} -60 {} 0 {} -42 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} -18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -96 {} -72 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} -54 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -66 {} -84 {} -84 {} -72 {} -72 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -43 {} 0 {} -48 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} 0 {} -18 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} -18 {} 0 {} -48 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} -18 {} 0 {} -18 {} -18 {} 0 {} 0 {} 0 {} 24 {} 24 {} 24 {} 24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -48 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} -30 {} -30 {} -30 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -15 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 24 {} 24 {} 24 {} 24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} 0 {} -30 {} 0 {} 0 {} -66 {} 0 {} 0 {} -18 {} -66 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} 0 {} 0 {} -18 {} 0 {} 0 {} 0 {} 24 {} 0 {} 24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -66 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 24 {} 0 {} 24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} -36 {} 0 {} 0 {} -90 {} 0 {} 0 {} -18 {} -78 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -78 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} -6 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} 0 {} -18 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
+ChainSub2: coverage "'frac' Diagonal Fractions in Latin lookup 19 contextual 4" 0 0 0 1
+ 3 0 0
+  Coverage: 39 three three.sc three.onum threesuperior
+  Coverage: 8 fraction
+  Coverage: 22 four four.sc four.onum
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 28"
+EndFPST
+ChainSub2: coverage "'frac' Diagonal Fractions in Latin lookup 19 contextual 3" 0 0 0 1
+ 3 0 0
+  Coverage: 31 one one.sc onesuperior one.onum
+  Coverage: 8 fraction
+  Coverage: 31 two twosuperior two.onum two.sc
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 28"
+EndFPST
+ChainSub2: coverage "'frac' Diagonal Fractions in Latin lookup 19 contextual 2" 0 0 0 1
+ 3 0 0
+  Coverage: 31 one one.sc onesuperior one.onum
+  Coverage: 8 fraction
+  Coverage: 22 four four.sc four.onum
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 28"
+EndFPST
+ChainSub2: coverage "'frac' Diagonal Fractions in Latin lookup 19 contextual 1" 0 0 0 1
+ 3 0 0
+  Coverage: 22 zero zero.sc zero.onum
+  Coverage: 8 fraction
+  Coverage: 22 zero zero.sc zero.onum
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 29"
+EndFPST
+ChainSub2: coverage "'frac' Diagonal Fractions in Latin lookup 19 contextual 0" 0 0 0 1
+ 4 0 0
+  Coverage: 22 zero zero.sc zero.onum
+  Coverage: 8 fraction
+  Coverage: 22 zero zero.sc zero.onum
+  Coverage: 22 zero zero.sc zero.onum
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 28"
+EndFPST
+ChainSub2: coverage "'ordn' Ordinals in Latin lookup 15 contextual 4" 0 0 0 1
+ 1 2 0
+  Coverage: 3 O o
+  BCoverage: 6 period
+  BCoverage: 229 zero one two three four five six seven eight nine two.onum nine.sc one.sc three.sc seven.sc nine.onum six.onum seven.onum three.onum one.onum four.sc five.onum four.onum zero.sc two.sc eight.onum zero.onum eight.sc five.sc six.sc
+ 1
+  SeqLookup: 0 "Single Substitution lookup 27"
+EndFPST
+ChainSub2: coverage "'ordn' Ordinals in Latin lookup 15 contextual 3" 0 0 0 1
+ 1 2 0
+  Coverage: 3 A a
+  BCoverage: 6 period
+  BCoverage: 229 zero one two three four five six seven eight nine two.onum nine.sc one.sc three.sc seven.sc nine.onum six.onum seven.onum three.onum one.onum four.sc five.onum four.onum zero.sc two.sc eight.onum zero.onum eight.sc five.sc six.sc
+ 1
+  SeqLookup: 0 "Single Substitution lookup 27"
+EndFPST
+ChainSub2: coverage "'ordn' Ordinals in Latin lookup 15 contextual 2" 0 0 0 1
+ 1 1 0
+  Coverage: 3 O o
+  BCoverage: 229 zero one two three four five six seven eight nine two.onum nine.sc one.sc three.sc seven.sc nine.onum six.onum seven.onum three.onum one.onum four.sc five.onum four.onum zero.sc two.sc eight.onum zero.onum eight.sc five.sc six.sc
+ 1
+  SeqLookup: 0 "Single Substitution lookup 27"
+EndFPST
+ChainSub2: coverage "'ordn' Ordinals in Latin lookup 15 contextual 1" 0 0 0 1
+ 1 1 0
+  Coverage: 3 A a
+  BCoverage: 229 zero one two three four five six seven eight nine two.onum nine.sc one.sc three.sc seven.sc nine.onum six.onum seven.onum three.onum one.onum four.sc five.onum four.onum zero.sc two.sc eight.onum zero.onum eight.sc five.sc six.sc
+ 1
+  SeqLookup: 0 "Single Substitution lookup 27"
+EndFPST
+ChainSub2: coverage "'ordn' Ordinals in Latin lookup 15 contextual 0" 0 0 0 1
+ 1 2 0
+  Coverage: 1 a
+  BCoverage: 3 one
+  BCoverage: 3 one
+ 0
+EndFPST
+LangName: 1033 "Copyright (c) 2004 Linotype Library GmbH, www.linotype.com. All rights reserved. This software may not be reproduced, used, displayed, modified, disclosed or transferred without the express written approval of Linotype Library GmbH. Avenir is a trademark of Heidelberger Druckmaschinen AG, exclusively licensed through Linotype Library GmbH, and may be registered in certain jurisdictions. This typeface is original artwork of Adrian Frutiger and Akira Kobayashi. The design may be protected in certain jurisdictions." "AvenirNext LT Pro Regular" "Bold" "" "AvenirNextLTPro-Demi" "Version 1.100;PS 001.001;hotconv 1.0.38" "" "Avenir is a trademark of Heidelberger Druckmaschinen AG which may be registered in certain jurisdictions, exclusively licensed through Linotype Library GmbH, a wholly owned subsidiary of Heidelberger Druckmaschinen AG." "Linotype Library GmbH" "Adrian Frutiger and Akira Kobayashi" "NOTIFICATION OF LICENSE AGREEMENT+AA0ACgANAAoA-This typeface is the property of Heidelberger Druckmaschinen AG and its use by you is covered under the terms of a license agreement respectively font software license agreement. We are fully authorized and empowered to use and commercially exploit these intellectual property rights in their business of licensing, manufacturing and selling typefaces.+AA0ACgANAAoA-You have obtained this typeface software either directly from Linotype Library GmbH or together with software distributed by one of Linotype Library+IBkA-s licensees.+AA0ACgANAAoA-This software is a valuable asset of the Linotype Library GmbH. Unless you have entered into a specific license agreement granting you additional rights, your use of this software is limited to your workstation(s) for your own publishing use. You may not copy or distribute this software.+AA0ACgANAAoA-If you have any question concerning your rights you should review the license agreement you received with the software or contact Linotype Library GmbH for a copy of the license agreement.+AA0ACgANAAoA-Linotype Library can be contacted at:+AA0ACgANAAoA-Tel.: +-49(6172) 484-401  or http://www.linotype.com " "http://www.linotype.com" "http://www.linotype.com" "" "" "" "Avenir Next LT Pro" "Demi" "AvenirNext LT Pro Demi"
+Encoding: UnicodeBmp
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 65626 19 5
+BeginPrivate: 7
+BlueValues 23 [-18 0 480 494 708 726]
+OtherBlues 11 [-240 -240]
+BlueScale 6 0.0396
+StdHW 4 [78]
+StdVW 5 [120]
+StemSnapH 12 [78 100 144]
+StemSnapV 9 [120 144]
+EndPrivate
+BeginChars: 65719 42
+
+StartChar: asterisk
+Encoding: 42 42 0
+Width: 463
+Flags: MW
+HStem: 466 20G<165 165 299 299> 688 20G<190 274 274 274>
+VStem: 190 84<566 708 566 708>
+LayerCount: 2
+Fore
+SplineSet
+274 708 m 1
+ 274 566 l 1
+ 409 610 l 1
+ 435 530 l 1
+ 299 486 l 1
+ 385 369 l 1
+ 316 319 l 1
+ 230 437 l 1
+ 146 322 l 1
+ 79 373 l 1
+ 165 486 l 1
+ 28 533 l 1
+ 54 613 l 1
+ 190 566 l 1
+ 190 708 l 1
+ 274 708 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: plus
+Encoding: 43 43 1
+Width: 666
+Flags: MW
+HStem: 252 102<62 282 62 282 384 604>
+VStem: 282 102<32 252 32 252 354 574>
+LayerCount: 2
+Fore
+SplineSet
+62 354 m 1
+ 282 354 l 1
+ 282 574 l 1
+ 384 574 l 1
+ 384 354 l 1
+ 604 354 l 1
+ 604 252 l 1
+ 384 252 l 1
+ 384 32 l 1
+ 282 32 l 1
+ 282 252 l 1
+ 62 252 l 1
+ 62 354 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: hyphen
+Encoding: 45 45 2
+Width: 320
+Flags: MW
+HStem: 195 102<40 280 40 280>
+VStem: 40 240<195 297 195 297>
+LayerCount: 2
+Fore
+SplineSet
+280 297 m 1
+ 280 195 l 1
+ 40 195 l 1
+ 40 297 l 1
+ 280 297 l 1
+EndSplineSet
+Validated: 1
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" hyphen uni00AD endash emdash minus
+EndChar
+
+StartChar: period
+Encoding: 46 46 3
+Width: 260
+Flags: MW
+HStem: -6 154<109 151.5 108 152>
+VStem: 50 160<50.5 91.5>
+LayerCount: 2
+Fore
+SplineSet
+50 70 m 0
+ 50 113 86 148 130 148 c 0
+ 173 148 210 115 210 72 c 0
+ 210 29 174 -6 130 -6 c 0
+ 88 -6 50 27 50 70 c 0
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: zero
+Encoding: 48 48 4
+Width: 610
+Flags: MW
+HStem: -18 102<252 359.5 252 386> 626 100<252 359.5>
+VStem: 55 123<304.5 403.5 304.5 468.5> 432 123<304.5 403.5>
+LayerCount: 2
+Fore
+SplineSet
+555 354 m 0
+ 555 125 466 -18 306 -18 c 0
+ 145 -18 55 125 55 354 c 0
+ 55 583 145 726 306 726 c 0
+ 466 726 555 583 555 354 c 0
+432 354 m 0
+ 432 453 413 626 306 626 c 0
+ 198 626 178 453 178 354 c 0
+ 178 255 198 84 306 84 c 0
+ 413 84 432 255 432 354 c 0
+EndSplineSet
+Validated: 1
+Substitution2: "'sups' Superscript in Latin lookup 17 subtable" zero
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" zero.sc
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 5 subtable" zero.sc
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 4 subtable" zero.onum
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" zero.sc zero zero.onum
+EndChar
+
+StartChar: one
+Encoding: 49 49 5
+Width: 610
+Flags: HMW
+HStem: 0 21G<279 279 279 399> 688 20G<290 399 399 399>
+VStem: 279 120<0 562 562 562>
+LayerCount: 2
+Fore
+SplineSet
+279 0 m 1
+ 279 555 l 1
+ 139 415 l 1
+ 69 487 l 1
+ 290 708 l 1
+ 399 708 l 1
+ 399 0 l 1
+ 279 0 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "'sups' Superscript in Latin lookup 18 subtable" onesuperior
+Substitution2: "'sups' Superscript in Latin lookup 17 subtable" one
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" one.sc
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 5 subtable" one.sc
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 4 subtable" one.onum
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" one.sc one onesuperior one.onum
+EndChar
+
+StartChar: two
+Encoding: 50 50 6
+Width: 610
+Flags: HMW
+HStem: 0 110<69 69 221 540> 626 100<267 333>
+VStem: 414 125<489.5 550>
+LayerCount: 2
+Fore
+SplineSet
+69 0 m 1
+ 69 110 l 1
+ 342 378 l 2
+ 386 421 414 462 414 517 c 0
+ 414 583 365 626 301 626 c 0
+ 233 626 190 574 181 505 c 1
+ 64 505 l 1
+ 80 621 173 726 303 726 c 0
+ 426 726 539 655 539 519 c 0
+ 539 428 488 365 425 305 c 2
+ 221 110 l 1
+ 540 110 l 1
+ 540 0 l 1
+ 69 0 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "'sups' Superscript in Latin lookup 18 subtable" twosuperior
+Substitution2: "'sups' Superscript in Latin lookup 17 subtable" two
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" two.sc
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 5 subtable" two.sc
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 4 subtable" two.onum
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" two.sc two twosuperior two.onum
+EndChar
+
+StartChar: three
+Encoding: 51 51 7
+Width: 610
+Flags: MW
+HStem: -18 102<246.5 315 246.5 348> 321 96<212 244 212 242> 626 100<254 313>
+VStem: 395 121<494 556> 414 121<158.5 243.5 126.5 247>
+LayerCount: 2
+Fore
+SplineSet
+212 321 m 1xe8
+ 212 417 l 1
+ 244 417 l 2
+ 315 417 395 437 395 524 c 0
+ 395 588 343 626 283 626 c 0
+ 225 626 184 589 170 535 c 1
+ 57 564 l 1
+ 82 659 175 726 288 726 c 0
+ 412 726 516 659 516 532 c 0xf0
+ 516 456 466 391 389 372 c 1
+ 389 370 l 1
+ 475 353 535 287 535 200 c 0
+ 535 53 408 -18 288 -18 c 0
+ 169 -18 69 31 31 149 c 1
+ 143 184 l 1
+ 160 128 209 84 284 84 c 0
+ 346 84 414 116 414 201 c 0
+ 414 293 317 321 242 321 c 2
+ 212 321 l 1xe8
+EndSplineSet
+Validated: 1
+Substitution2: "'sups' Superscript in Latin lookup 18 subtable" threesuperior
+Substitution2: "'sups' Superscript in Latin lookup 17 subtable" three
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" three.sc
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 5 subtable" three.sc
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 4 subtable" three.onum
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" three.sc three threesuperior three.onum
+EndChar
+
+StartChar: four
+Encoding: 52 52 8
+Width: 610
+Flags: MW
+HStem: 0 21G<348 348 348 466> 147 103<145 348 145 348 466 565> 567 141<346 348 346 346> 688 20G<322 466 466 466>
+VStem: 348 118<0 147 0 147 250 567 567 567>
+LayerCount: 2
+Fore
+SplineSet
+348 0 m 1xd8
+ 348 147 l 1
+ 21 147 l 1
+ 21 253 l 1
+ 322 708 l 1
+ 466 708 l 1
+ 466 250 l 1
+ 565 250 l 1
+ 565 147 l 1
+ 466 147 l 1
+ 466 0 l 1
+ 348 0 l 1xd8
+348 250 m 1
+ 348 567 l 1
+ 346 567 l 1xe8
+ 145 250 l 1
+ 348 250 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "'sups' Superscript in Latin lookup 17 subtable" four
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" four.sc
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 5 subtable" four.sc
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 4 subtable" four.onum
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" four.sc four four.onum
+EndChar
+
+StartChar: five
+Encoding: 53 53 9
+Width: 610
+Flags: HMW
+HStem: -18 102<249.5 316.5 249.5 348.5> 360 96<279.5 293.5> 600 108<216 505 216 216>
+VStem: 96 116 413 123<176 273.5>
+LayerCount: 2
+Fore
+SplineSet
+505 708 m 1
+ 505 600 l 1
+ 209 600 l 1
+ 209 447 l 1
+ 231 453 267 456 292 456 c 0
+ 431 456 536 375 536 232 c 0
+ 536 75 419 -18 278 -18 c 0
+ 160 -18 76 42 39 137 c 1
+ 148 177 l 1
+ 168 121 218 84 281 84 c 0
+ 352 84 413 133 413 219 c 0
+ 413 328 332 360 255 360 c 0
+ 201 360 133 343 90 321 c 1
+ 90 708 l 1
+ 505 708 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "'sups' Superscript in Latin lookup 17 subtable" five
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" five.sc
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 5 subtable" five.sc
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 4 subtable" five.onum
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" five.sc five five.onum
+EndChar
+
+StartChar: six
+Encoding: 54 54 10
+Width: 610
+Flags: MW
+HStem: -18 102<261.5 343.5 261.5 376.5> 362 95<324 345> 688 20G<295 441 441 441>
+VStem: 45 122<185 263.5 185 265.5> 439 123<182 264>
+LayerCount: 2
+Fore
+SplineSet
+295 708 m 1
+ 441 708 l 1
+ 260 446 l 1
+ 261 445 l 1
+ 280 453 312 457 336 457 c 0
+ 461 457 562 359 562 230 c 0
+ 562 80 449 -18 304 -18 c 0
+ 156 -18 45 88 45 225 c 0
+ 45 306 72 361 118 434 c 2
+ 295 708 l 1
+167 222 m 0
+ 167 148 220 84 303 84 c 0
+ 384 84 439 140 439 224 c 0
+ 439 304 385 362 305 362 c 0
+ 224 362 167 305 167 222 c 0
+EndSplineSet
+Validated: 1
+Substitution2: "'sups' Superscript in Latin lookup 17 subtable" six
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" six.sc
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 5 subtable" six.sc
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 4 subtable" six.onum
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" six.sc six six.onum
+EndChar
+
+StartChar: seven
+Encoding: 55 55 11
+Width: 610
+Flags: HMW
+HStem: 0 21G<108 249 108 108> 600 108<51 532 51 406>
+VStem: 51 481<600 708 598 708>
+LayerCount: 2
+Fore
+SplineSet
+51 600 m 1
+ 51 708 l 1
+ 532 708 l 1
+ 532 598 l 1
+ 233 0 l 1
+ 106 0 l 1
+ 406 600 l 1
+ 51 600 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "'sups' Superscript in Latin lookup 17 subtable" seven
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" seven.sc
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 5 subtable" seven.sc
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 4 subtable" seven.onum
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" seven.sc seven seven.onum
+EndChar
+
+StartChar: eight
+Encoding: 56 56 12
+Width: 610
+Flags: MW
+HStem: -18 101<270 339.5 270 373> 322 102<274 333.5 274 339> 627 99<275.5 332>
+VStem: 58 124<164 237 164 246> 81 122<498.5 557.5 498.5 589> 408 121<498.5 557.5> 427 125<164 236>
+LayerCount: 2
+Fore
+SplineSet
+305 726 m 0xec
+ 429 726 529 654 529 534 c 0xf4
+ 529 452 483 395 419 374 c 1
+ 419 372 l 1
+ 493 354 552 287 552 200 c 0
+ 552 59 441 -18 305 -18 c 0
+ 169 -18 58 59 58 200 c 0xf2
+ 58 292 122 354 191 372 c 1
+ 191 374 l 1
+ 128 397 81 447 81 529 c 0
+ 81 649 181 726 305 726 c 0xec
+305 627 m 0
+ 246 627 203 588 203 527 c 0
+ 203 470 243 424 305 424 c 0
+ 362 424 408 470 408 527 c 0
+ 408 588 359 627 305 627 c 0
+305 322 m 0xf2
+ 236 322 182 273 182 201 c 0
+ 182 127 235 83 305 83 c 0
+ 374 83 427 127 427 201 c 0
+ 427 271 373 322 305 322 c 0xf2
+EndSplineSet
+Validated: 1
+Substitution2: "'sups' Superscript in Latin lookup 17 subtable" eight
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" eight.sc
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 5 subtable" eight.sc
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 4 subtable" eight.onum
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" eight.sc eight eight.onum
+EndChar
+
+StartChar: nine
+Encoding: 57 57 13
+Width: 610
+Flags: MW
+HStem: 0 21G<168 314 168 168> 251 95<264 285> 626 100<265.5 347.5>
+VStem: 47 123<444 526 444 553> 442 122<444.5 523>
+LayerCount: 2
+Fore
+SplineSet
+314 0 m 1
+ 168 0 l 1
+ 350 263 l 1
+ 349 264 l 1
+ 329 255 297 251 273 251 c 0
+ 148 251 47 349 47 478 c 0
+ 47 628 160 726 305 726 c 0
+ 453 726 564 620 564 483 c 0
+ 564 402 537 347 491 274 c 2
+ 314 0 l 1
+442 486 m 0
+ 442 560 389 626 306 626 c 0
+ 225 626 170 568 170 484 c 0
+ 170 404 224 346 304 346 c 0
+ 385 346 442 403 442 486 c 0
+EndSplineSet
+Validated: 1
+Substitution2: "'sups' Superscript in Latin lookup 17 subtable" nine
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" nine.sc
+Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 5 subtable" nine.sc
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 4 subtable" nine.onum
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" nine.sc nine nine.onum
+EndChar
+
+StartChar: colon
+Encoding: 58 58 14
+Width: 300
+Flags: MW
+HStem: -6 154<129 171.5 128 172> 332 154<129 171.5 128 172>
+VStem: 70 160<50.5 91.5 388.5 429.5>
+LayerCount: 2
+Fore
+SplineSet
+70 70 m 0
+ 70 113 106 148 150 148 c 0
+ 193 148 230 115 230 72 c 0
+ 230 29 194 -6 150 -6 c 0
+ 108 -6 70 27 70 70 c 0
+70 408 m 0
+ 70 451 106 486 150 486 c 0
+ 193 486 230 453 230 410 c 0
+ 230 367 194 332 150 332 c 0
+ 108 332 70 365 70 408 c 0
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: A
+Encoding: 65 65 15
+Width: 706
+Flags: MW
+HStem: 0 21G<-8 -8 -8 133 570 570 570 714> 162 108<240 460 240 504 197 460> 688 20G<300 409 409 409>
+VStem: -8 722<0 0>
+LayerCount: 2
+Fore
+SplineSet
+-8 0 m 1
+ 300 708 l 1
+ 409 708 l 1
+ 714 0 l 1
+ 570 0 l 1
+ 504 162 l 1
+ 197 162 l 1
+ 133 0 l 1
+ -8 0 l 1
+240 270 m 1
+ 460 270 l 1
+ 351 558 l 1
+ 240 270 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "Single Substitution lookup 27 subtable" ordfeminine
+Substitution2: "'sups' Superscript in Latin lookup 20 subtable" ordfeminine
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" a.sc
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" a.sc ordfeminine
+EndChar
+
+StartChar: B
+Encoding: 66 66 16
+Width: 647
+Flags: MW
+HStem: 0 106<204 317 317 333> 312 108<204 316 204 316 316 322> 604 104<204 204 204 305>
+VStem: 78 126<106 312 420 604> 445 126<490 547.5> 475 126<165.5 249>
+LayerCount: 2
+Fore
+SplineSet
+78 0 m 1xf4
+ 78 708 l 1
+ 354 708 l 2
+ 461 708 571 659 571 530 c 0xf8
+ 571 450 521 397 448 375 c 1
+ 448 373 l 1
+ 537 361 601 301 601 206 c 0
+ 601 52 467 0 333 0 c 2
+ 78 0 l 1xf4
+204 604 m 1
+ 204 420 l 1
+ 316 420 l 2
+ 400 420 445 455 445 516 c 0
+ 445 579 400 604 305 604 c 2
+ 204 604 l 1
+204 312 m 1
+ 204 106 l 1
+ 317 106 l 2
+ 382 106 475 119 475 212 c 0xf4
+ 475 286 424 312 322 312 c 2
+ 204 312 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" b.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" b.sc
+EndChar
+
+StartChar: C
+Encoding: 67 67 17
+Width: 696
+Flags: MW
+HStem: -18 113<350 461 350 482> 615 111<355 456.5>
+VStem: 44 139<279 429 279 469.5>
+LayerCount: 2
+Fore
+SplineSet
+685 618 m 1
+ 589 542 l 1
+ 552 593 485 615 428 615 c 0
+ 282 615 183 502 183 356 c 0
+ 183 202 277 95 423 95 c 0
+ 499 95 559 128 595 177 c 1
+ 696 106 l 1
+ 634 28 542 -18 422 -18 c 0
+ 201 -18 44 135 44 356 c 0
+ 44 583 210 726 428 726 c 0
+ 520 726 629 692 685 618 c 1
+EndSplineSet
+Validated: 1
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" c.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" c.sc
+EndChar
+
+StartChar: D
+Encoding: 68 68 18
+Width: 764
+Flags: MW
+HStem: 0 110<204 309 309 329> 600 108<204 309 204 204>
+VStem: 78 126<110 110 110 600> 585 135<258.5 455.5>
+LayerCount: 2
+Fore
+SplineSet
+78 0 m 1
+ 78 708 l 1
+ 329 708 l 2
+ 514 708 720 620 720 354 c 0
+ 720 106 514 0 329 0 c 2
+ 78 0 l 1
+204 110 m 1
+ 309 110 l 2
+ 439 110 585 163 585 354 c 0
+ 585 557 439 600 309 600 c 2
+ 204 600 l 1
+ 204 110 l 1
+EndSplineSet
+Validated: 1
+Kerns2:
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" d.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" d.sc
+EndChar
+
+StartChar: E
+Encoding: 69 69 19
+Width: 610
+Flags: MW
+HStem: 0 112<204 565 204 565> 312 106<204 529 204 529> 598 110<204 547 204 204>
+VStem: 78 126<112 312 418 598>
+LayerCount: 2
+Fore
+SplineSet
+78 0 m 1
+ 78 708 l 1
+ 547 708 l 1
+ 547 598 l 1
+ 204 598 l 1
+ 204 418 l 1
+ 529 418 l 1
+ 529 312 l 1
+ 204 312 l 1
+ 204 112 l 1
+ 565 112 l 1
+ 565 0 l 1
+ 78 0 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" e.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" e.sc
+EndChar
+
+StartChar: F
+Encoding: 70 70 20
+Width: 573
+Flags: MW
+HStem: 0 21G<78 78 78 204> 298 106<204 516 204 516> 598 110<204 535 204 204>
+VStem: 78 126<0 298 404 598>
+LayerCount: 2
+Fore
+SplineSet
+78 0 m 1
+ 78 708 l 1
+ 535 708 l 1
+ 535 598 l 1
+ 204 598 l 1
+ 204 404 l 1
+ 516 404 l 1
+ 516 298 l 1
+ 204 298 l 1
+ 204 0 l 1
+ 78 0 l 1
+EndSplineSet
+Validated: 1
+Kerns2: 14 -24 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" f.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" f.sc
+EndChar
+
+StartChar: G
+Encoding: 71 71 21
+Width: 773
+Flags: MW
+HStem: -18 113<357 461.5 357 486.5> 300 104<427 576 427 698> 615 111<354.5 467>
+VStem: 44 139<280.5 429 280.5 469.5> 576 122<120 300 300 300>
+LayerCount: 2
+Fore
+SplineSet
+698 404 m 1
+ 698 37 l 1
+ 627 3 542 -18 431 -18 c 0
+ 203 -18 44 135 44 356 c 0
+ 44 583 210 726 428 726 c 0
+ 540 726 640 690 697 637 c 1
+ 610 543 l 1
+ 574 583 505 615 429 615 c 0
+ 280 615 183 502 183 356 c 0
+ 183 205 279 95 435 95 c 0
+ 488 95 535 103 576 120 c 1
+ 576 300 l 1
+ 427 300 l 1
+ 427 404 l 1
+ 698 404 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" g.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" g.sc
+EndChar
+
+StartChar: H
+Encoding: 72 72 22
+Width: 739
+Flags: MW
+HStem: 0 21G<78 78 78 204 535 535 535 661> 314 108<204 535 204 535> 688 20G<78 204 204 204 535 661 661 661>
+VStem: 78 126<0 314 422 708> 535 126<0 314 314 314 422 708 0 708>
+LayerCount: 2
+Fore
+SplineSet
+78 0 m 1
+ 78 708 l 1
+ 204 708 l 1
+ 204 422 l 1
+ 535 422 l 1
+ 535 708 l 1
+ 661 708 l 1
+ 661 0 l 1
+ 535 0 l 1
+ 535 314 l 1
+ 204 314 l 1
+ 204 0 l 1
+ 78 0 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" h.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" h.sc
+EndChar
+
+StartChar: I
+Encoding: 73 73 23
+Width: 282
+Flags: MW
+HStem: 0 21G<78 78 78 204> 688 20G<78 204 204 204>
+VStem: 78 126<0 708 0 708>
+LayerCount: 2
+Fore
+SplineSet
+78 0 m 1
+ 78 708 l 1
+ 204 708 l 1
+ 204 0 l 1
+ 78 0 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" i.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" i.sc
+EndChar
+
+StartChar: J
+Encoding: 74 74 24
+Width: 498
+Flags: MW
+HStem: -18 113<189 247 189 301.5> 688 20G<300 426 426 426>
+VStem: 300 126<233 708>
+LayerCount: 2
+Fore
+SplineSet
+426 708 m 1
+ 426 229 l 2
+ 426 126 390 -18 213 -18 c 0
+ 99 -18 30 45 5 138 c 1
+ 121 171 l 1
+ 133 124 167 95 211 95 c 0
+ 283 95 300 152 300 233 c 2
+ 300 708 l 1
+ 426 708 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" j.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" j.sc
+EndChar
+
+StartChar: K
+Encoding: 75 75 25
+Width: 689
+Flags: MW
+HStem: 0 21G<78 78 78 204 518 518 518 695> 688 20G<78 204 204 204 503 673 673 673>
+VStem: 78 126<0 355 402 708>
+LayerCount: 2
+Fore
+SplineSet
+78 0 m 1
+ 78 708 l 1
+ 204 708 l 1
+ 204 402 l 1
+ 207 402 l 1
+ 503 708 l 1
+ 673 708 l 1
+ 342 381 l 1
+ 695 0 l 1
+ 518 0 l 1
+ 207 355 l 1
+ 204 355 l 1
+ 204 0 l 1
+ 78 0 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" k.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" k.sc
+EndChar
+
+StartChar: L
+Encoding: 76 76 26
+Width: 511
+Flags: MW
+HStem: 0 112<204 505 204 505> 688 20G<78 204 204 204>
+VStem: 78 126<112 708 112 708 112 708>
+LayerCount: 2
+Fore
+SplineSet
+78 0 m 1
+ 78 708 l 1
+ 204 708 l 1
+ 204 112 l 1
+ 505 112 l 1
+ 505 0 l 1
+ 78 0 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" l.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" l.sc
+EndChar
+
+StartChar: M
+Encoding: 77 77 27
+Width: 920
+Flags: MW
+HStem: 0 21G<78 78 78 198 412 412 412 500 717 717 717 842> 569 139<198 200 198 198 715 717 715 715>
+VStem: 78 120<0 569 0 708> 717 125<0 569 569 569>
+LayerCount: 2
+Fore
+SplineSet
+78 0 m 1
+ 78 708 l 1
+ 275 708 l 1
+ 459 205 l 1
+ 462 205 l 1
+ 644 708 l 1
+ 842 708 l 1
+ 842 0 l 1
+ 717 0 l 1
+ 717 569 l 1
+ 715 569 l 1
+ 500 0 l 1
+ 412 0 l 1
+ 200 569 l 1
+ 198 569 l 1
+ 198 0 l 1
+ 78 0 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" m.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" m.sc
+EndChar
+
+StartChar: N
+Encoding: 78 78 28
+Width: 780
+Flags: MW
+HStem: 0 21G<78 78 78 204 542 542 542 702> 0 178<542 576 574 576 574 702> 547 161<204 206 204 204> 688 20G<78 245 245 245 576 702 702 702>
+VStem: 78 126<0 547 0 708> 576 126<178 708 0 708>
+LayerCount: 2
+Fore
+SplineSet
+78 0 m 1x9c
+ 78 708 l 1
+ 245 708 l 1
+ 574 178 l 1
+ 576 178 l 1x5c
+ 576 708 l 1
+ 702 708 l 1
+ 702 0 l 1
+ 542 0 l 1
+ 206 547 l 1
+ 204 547 l 1xac
+ 204 0 l 1
+ 78 0 l 1x9c
+EndSplineSet
+Validated: 1
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" n.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" n.sc
+EndChar
+
+StartChar: O
+Encoding: 79 79 29
+Width: 849
+Flags: MW
+HStem: -18 113<352 496.5 352 533.5> 615 111<351 497.5>
+VStem: 44 137<280.5 429 280.5 469.5> 668 137<280.5 429>
+LayerCount: 2
+Fore
+SplineSet
+44 356 m 0
+ 44 583 205 726 423 726 c 0
+ 644 726 805 583 805 356 c 0
+ 805 135 644 -18 423 -18 c 0
+ 205 -18 44 135 44 356 c 0
+181 356 m 0
+ 181 205 280 95 424 95 c 0
+ 569 95 668 205 668 356 c 0
+ 668 502 571 615 424 615 c 0
+ 278 615 181 502 181 356 c 0
+EndSplineSet
+Validated: 1
+Kerns2:
+Substitution2: "Single Substitution lookup 27 subtable" ordmasculine
+Substitution2: "'sups' Superscript in Latin lookup 20 subtable" ordmasculine
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" o.sc
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" o.sc ordmasculine
+EndChar
+
+StartChar: P
+Encoding: 80 80 30
+Width: 610
+Flags: MW
+HStem: 0 21G<78 78 78 204> 293 106<204 292 292 301 204 292> 602 106<204 296 204 204>
+VStem: 78 126<0 293 399 602> 449 127<461 545>
+LayerCount: 2
+Fore
+SplineSet
+78 0 m 1
+ 78 708 l 1
+ 309 708 l 2
+ 471 708 576 651 576 503 c 0
+ 576 347 451 293 301 293 c 2
+ 204 293 l 1
+ 204 0 l 1
+ 78 0 l 1
+204 399 m 1
+ 292 399 l 2
+ 374 399 449 419 449 503 c 0
+ 449 587 374 602 296 602 c 2
+ 204 602 l 1
+ 204 399 l 1
+EndSplineSet
+Validated: 1
+Kerns2: 14 -36 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" p.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" p.sc
+EndChar
+
+StartChar: Q
+Encoding: 81 81 31
+Width: 852
+Flags: MW
+HStem: 0 102<666 841 666 841> 0 110<343 414 414 484 343 841> 613 113<347.5 487.5>
+VStem: 37 138<287.5 435 287.5 470.5> 655 137<299.5 435>
+LayerCount: 2
+Fore
+SplineSet
+841 102 m 1xb8
+ 841 0 l 1
+ 414 0 l 2
+ 188 0 37 133 37 363 c 0
+ 37 578 199 726 416 726 c 0
+ 633 726 792 578 792 363 c 0
+ 792 236 729 149 666 104 c 1
+ 666 102 l 1
+ 841 102 l 1xb8
+416 613 m 0
+ 279 613 175 507 175 363 c 0
+ 175 212 272 110 414 110 c 0x78
+ 554 110 655 212 655 363 c 0
+ 655 507 559 613 416 613 c 0
+EndSplineSet
+Validated: 1
+Kerns2: 36 -12 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" q.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" q.sc
+EndChar
+
+StartChar: R
+Encoding: 82 82 32
+Width: 629
+Flags: MW
+HStem: 0 21G<78 78 78 204 460 460 460 612> 300 103<204 296 204 307> 602 106<204 318 204 204>
+VStem: 78 126<0 300 403 602> 459 126<463 544.5>
+LayerCount: 2
+Fore
+SplineSet
+78 0 m 1
+ 78 708 l 1
+ 324 708 l 2
+ 457 708 585 655 585 505 c 0
+ 585 403 522 336 423 314 c 1
+ 612 0 l 1
+ 460 0 l 1
+ 296 300 l 1
+ 204 300 l 1
+ 204 0 l 1
+ 78 0 l 1
+204 403 m 1
+ 307 403 l 2
+ 378 403 459 420 459 506 c 0
+ 459 583 383 602 318 602 c 2
+ 204 602 l 1
+ 204 403 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" r.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" r.sc
+EndChar
+
+StartChar: S
+Encoding: 83 83 33
+Width: 574
+Flags: MW
+HStem: -18 107<242 299.5 242 337.5> 621 105<280 334>
+VStem: 56 128<491.5 558.5 491.5 590> 398 128<156 231>
+LayerCount: 2
+Fore
+SplineSet
+521 650 m 1
+ 439 560 l 1
+ 412 595 359 621 309 621 c 0
+ 251 621 184 593 184 524 c 0
+ 184 459 239 440 319 415 c 0
+ 410 387 526 347 526 208 c 0
+ 526 56 407 -18 268 -18 c 0
+ 176 -18 81 17 25 83 c 1
+ 115 167 l 1
+ 150 119 214 89 270 89 c 0
+ 329 89 398 118 398 194 c 0
+ 398 268 324 289 235 317 c 0
+ 149 344 56 386 56 518 c 0
+ 56 662 187 726 315 726 c 0
+ 386 726 467 701 521 650 c 1
+EndSplineSet
+Validated: 1
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" s.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" s.sc
+EndChar
+
+StartChar: T
+Encoding: 84 84 34
+Width: 568
+Flags: MW
+HStem: 0 21G<221 221 221 347> 598 110<4 221 4 564 347 347 347 564>
+VStem: 221 126<0 598 0 598>
+LayerCount: 2
+Fore
+SplineSet
+221 0 m 1
+ 221 598 l 1
+ 4 598 l 1
+ 4 708 l 1
+ 564 708 l 1
+ 564 598 l 1
+ 347 598 l 1
+ 347 0 l 1
+ 221 0 l 1
+EndSplineSet
+Validated: 1
+Kerns2:
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" t.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" t.sc
+EndChar
+
+StartChar: U
+Encoding: 85 85 35
+Width: 714
+Flags: MW
+HStem: -18 113<296.5 417.5 296.5 438> 688 20G<72 198 198 198 516 642 642 642>
+VStem: 72 126<260 265 265 708> 516 126<265 708>
+LayerCount: 2
+Fore
+SplineSet
+642 708 m 1
+ 642 260 l 2
+ 642 89 519 -18 357 -18 c 0
+ 195 -18 72 89 72 260 c 2
+ 72 708 l 1
+ 198 708 l 1
+ 198 265 l 2
+ 198 183 236 95 357 95 c 0
+ 478 95 516 183 516 265 c 2
+ 516 708 l 1
+ 642 708 l 1
+EndSplineSet
+Validated: 1
+Kerns2:
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" u.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" u.sc
+EndChar
+
+StartChar: V
+Encoding: 86 86 36
+Width: 653
+Flags: MW
+HStem: 0 21G<270 270 270 379> 0 163<270 330 326 330 326 379> 688 20G<-10 131 131 131 527 663 663 663>
+VStem: -10 673<708 708>
+LayerCount: 2
+Fore
+SplineSet
+270 0 m 1xb0
+ -10 708 l 1
+ 131 708 l 1
+ 326 163 l 1
+ 330 163 l 1x70
+ 527 708 l 1
+ 663 708 l 1
+ 379 0 l 1
+ 270 0 l 1xb0
+EndSplineSet
+Validated: 1
+Kerns2: 14 -48 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" v.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" v.sc
+EndChar
+
+StartChar: W
+Encoding: 87 87 37
+Width: 1004
+Flags: MW
+HStem: 0 21G<213 213 213 335 669 669 669 791> 688 20G<6 144 144 144 439 569 569 569 864 998 998 998>
+VStem: 6 992<708 708>
+LayerCount: 2
+Fore
+SplineSet
+213 0 m 1
+ 6 708 l 1
+ 144 708 l 1
+ 281 188 l 1
+ 283 188 l 1
+ 439 708 l 1
+ 569 708 l 1
+ 722 188 l 1
+ 724 188 l 1
+ 864 708 l 1
+ 998 708 l 1
+ 791 0 l 1
+ 669 0 l 1
+ 503 531 l 1
+ 501 531 l 1
+ 335 0 l 1
+ 213 0 l 1
+EndSplineSet
+Validated: 1
+Kerns2:
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" w.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" w.sc
+EndChar
+
+StartChar: X
+Encoding: 88 88 38
+Width: 658
+Flags: MW
+HStem: 0 21G<4 4 4 156 495 495 495 654> 278 21G<322 322> 688 20G<29 181 181 181 471 616 616 616>
+VStem: 4 650<0 0>
+LayerCount: 2
+Fore
+SplineSet
+4 0 m 1
+ 249 378 l 1
+ 29 708 l 1
+ 181 708 l 1
+ 327 466 l 1
+ 471 708 l 1
+ 616 708 l 1
+ 400 375 l 1
+ 654 0 l 1
+ 495 0 l 1
+ 322 278 l 1
+ 156 0 l 1
+ 4 0 l 1
+EndSplineSet
+Validated: 1
+Kerns2:
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" x.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" x.sc
+EndChar
+
+StartChar: Y
+Encoding: 89 89 39
+Width: 622
+Flags: MW
+HStem: 0 21G<249 249 249 375> 688 20G<-17 137 137 137 495 641 641 641>
+VStem: 249 126<0 307 0 307>
+LayerCount: 2
+Fore
+SplineSet
+249 0 m 1
+ 249 307 l 1
+ -17 708 l 1
+ 137 708 l 1
+ 315 410 l 1
+ 495 708 l 1
+ 641 708 l 1
+ 375 307 l 1
+ 375 0 l 1
+ 249 0 l 1
+EndSplineSet
+Validated: 1
+Kerns2:
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" y.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" y.sc
+EndChar
+
+StartChar: Z
+Encoding: 90 90 40
+Width: 611
+Flags: MW
+HStem: 0 112<183 576 183 576> 598 110<41 420 41 570>
+VStem: 35 541<0 112 0 114 0 114>
+LayerCount: 2
+Fore
+SplineSet
+35 0 m 1
+ 35 114 l 1
+ 420 598 l 1
+ 41 598 l 1
+ 41 708 l 1
+ 570 708 l 1
+ 570 594 l 1
+ 183 112 l 1
+ 576 112 l 1
+ 576 0 l 1
+ 35 0 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 8 subtable" z.sc
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" z.sc
+EndChar
+
+StartChar: space
+Encoding: 32 32 41
+Width: 250
+Flags: W
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+EndChars
+EndSplineFont
