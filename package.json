@@ -15,6 +15,12 @@
         "resources": {
             "media": [
                 {
+                    "file": "images/temperature.png",
+                    "name": "BMP_TEMPERATURE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
                     "file": "images/no_phone.png",
                     "name": "BMP_NO_BLUETOOTH",
                     "targetPlatforms": null,

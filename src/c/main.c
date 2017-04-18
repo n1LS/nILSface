@@ -14,7 +14,10 @@ FFont* minutes_font;
 
 static const int s_side_width = 30;
 
+#define NO_TEMPERATURE -32768
+
 static GBitmap *s_bmp_battery;
+static GBitmap *s_bmp_temperature;
 static GBitmap *s_bmp_bluetooth;
 static GBitmap *s_bmp_calendar;
 
@@ -22,6 +25,7 @@ static Window *s_main_window;
 static Layer *s_canvas_layer;
 
 static BatteryChargeState s_battery;
+static int s_temperature = NO_TEMPERATURE;
 static int s_day;
 static int s_month;
 static bool s_no_bluetooth;
@@ -75,11 +79,45 @@ static void draw_number(GContext *ctx, GPoint p, int num)
 	}
 }
 
+static void draw_number_outline(GContext *ctx, GPoint p, int num)
+{
+    // offset origin to match draw_number_position
+    p.x -= 1;
+    p.y -= 1;
+    
+	uint16_t *ch = (uint16_t *)s_date_font_outline[num];
+
+	for (int dx = 0; dx < 10; dx++)
+	{
+		uint16_t pixels = *ch;
+
+		for (int dy = 14; dy >= 0; dy--)
+		{
+			if (pixels & 1)
+			{
+				graphics_draw_pixel(ctx, GPoint(p.x + dx, p.y + dy));
+			}
+
+			pixels >>= 1;
+		}
+
+		ch++;
+	}
+}
+
 static void draw_numbers(GContext *ctx, GPoint p, int num)
 {
-	draw_number(ctx,p, (num / 10) % 10);
-	p.x += 10;
-	draw_number(ctx, p,  num % 10);
+    graphics_context_set_stroke_color(ctx, GColorWhite);
+	draw_number_outline(ctx, p, (num / 10) % 10);
+    graphics_context_set_stroke_color(ctx, GColorBlack);
+//	draw_number(ctx, p, (num / 10) % 10);
+
+    p.x += 10;
+
+    graphics_context_set_stroke_color(ctx, GColorWhite);
+    draw_number_outline(ctx, p,  num % 10);
+    graphics_context_set_stroke_color(ctx, GColorBlack);
+//	draw_number(ctx, p, num % 10);
 }
 
 // *********************************** UI **************************************
@@ -114,8 +152,10 @@ static void draw_calendar(GContext *ctx, GRect bounds)
 	GRect r;
 
     // background image
-    r.origin = GPoint(bounds.size.w - s_side_width + 2, bounds.size.h - 2 - 33);
-    r.size = GSize(26, 33);
+    int height = 30;
+    
+    r.origin = GPoint(bounds.size.w - s_side_width, bounds.size.h - 2 - height);
+    r.size = GSize(s_side_width, height);
     graphics_context_set_compositing_mode(ctx, GCompOpSet);
     graphics_draw_bitmap_in_rect(ctx, s_bmp_calendar, r);
 
@@ -124,10 +164,11 @@ static void draw_calendar(GContext *ctx, GRect bounds)
     p.x = bounds.size.w - s_side_width + 6;
     p.y = bounds.size.h - 22;
 	draw_numbers(ctx, p, s_day);
+    draw_numbers(ctx, GPoint(1, 0), s_day);
 
 	// month name
 	graphics_context_set_stroke_color(ctx, GColorWhite);
-    p.x = bounds.size.w - s_side_width + 7;
+    p.x = bounds.size.w - (4 * 3 + 8);
     p.y = bounds.size.h - 29;
 	draw_month(ctx, p, s_month % 12);
 }
@@ -142,6 +183,31 @@ static void draw_bluetooth_icon(GContext *ctx, GRect bounds)
 
 	graphics_context_set_compositing_mode(ctx, GCompOpSet);
 	graphics_draw_bitmap_in_rect(ctx, s_bmp_bluetooth, r);
+}
+
+static void draw_temperature(GContext *ctx, GRect bounds)
+{
+    if (s_temperature == NO_TEMPERATURE)
+    {
+        return;
+    }
+ 
+   	GRect r;
+
+    int yOffs = 97; // TODO useful alignment method
+    
+    // background image
+    r.origin = GPoint(bounds.size.w - s_side_width, bounds.size.h - yOffs);
+    r.size = GSize(30, 15);
+    graphics_context_set_compositing_mode(ctx, GCompOpSet);
+    graphics_draw_bitmap_in_rect(ctx, s_bmp_temperature, r);
+
+    GPoint p;
+    p.x = bounds.size.w - s_side_width + 4;
+    p.y = bounds.size.h - yOffs - 2; 
+    
+    graphics_context_set_stroke_color(ctx, GColorBlack);
+    draw_numbers(ctx, p, s_temperature);
 }
 
 static void draw_battery(GContext *ctx, GRect bounds)
@@ -242,6 +308,9 @@ static void prv_update_proc(Layer *layer, GContext *ctx)
 	// calendar
 	draw_calendar(ctx, bounds);
 
+    // weather
+    draw_temperature(ctx, bounds);
+    
 	// bluetooth status (if disconnected)
 	if (s_no_bluetooth)
 	{
@@ -276,9 +345,10 @@ static void prv_window_load(Window *window) {
 	tick_timer_service_subscribe(MINUTE_UNIT, prv_tick_handler);
 
     // load resources
-    s_bmp_battery   = gbitmap_create_with_resource(RESOURCE_ID_BMP_BATTERY);
-    s_bmp_bluetooth = gbitmap_create_with_resource(RESOURCE_ID_BMP_NO_BLUETOOTH);
-    s_bmp_calendar  = gbitmap_create_with_resource(RESOURCE_ID_BMP_CALENDAR);
+    s_bmp_battery     = gbitmap_create_with_resource(RESOURCE_ID_BMP_BATTERY);
+    s_bmp_temperature = gbitmap_create_with_resource(RESOURCE_ID_BMP_TEMPERATURE);
+    s_bmp_bluetooth   = gbitmap_create_with_resource(RESOURCE_ID_BMP_NO_BLUETOOTH);
+    s_bmp_calendar    = gbitmap_create_with_resource(RESOURCE_ID_BMP_CALENDAR);
 
 	// Subscribe to the unobstructed area events
 	UnobstructedAreaHandlers handlers = {
@@ -307,6 +377,7 @@ static void prv_window_unload(Window *window) {
     
     gbitmap_destroy(s_bmp_battery);
     gbitmap_destroy(s_bmp_bluetooth);
+    gbitmap_destroy(s_bmp_temperature);
     gbitmap_destroy(s_bmp_calendar);
     
     ffont_destroy(minutes_font);
