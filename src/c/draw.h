@@ -7,7 +7,7 @@
 
 #include <pebble.h>
 
-#include "drawing.h"
+#include "draw.h"
 #include "fonts.h"
 
 typedef enum kColor

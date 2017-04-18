@@ -3,7 +3,7 @@
  ******************************************************************************/
 
 #include "ui.h"
-#include "drawing.h"
+#include "draw.h"
 
 #include <pebble-fctx/fctx.h>
 #include <pebble-fctx/fpath.h>
@@ -77,13 +77,13 @@ void ui_set_battery(BatteryChargeState state)
 void ui_set_time(struct tm *tick_time)
 {
 	int h = tick_time->tm_hour;
+
 	time_hours[0] = '0' + h / 10;
 	time_hours[1] = '0' + h % 10;
 
 	int m = tick_time->tm_min;
 	time_minutes[0] = '0' + m / 10;
 	time_minutes[1] = '0' + m % 10;
-	ui_set_time(tick_time);
 
 	// store date
 	char buffer[3];
@@ -153,7 +153,7 @@ int draw_temperature(GContext *ctx, GRect bounds)
 
 	GRect r;
 
-	int height = 17; // TODO useful alignment method
+	int height = 17; 
 
 	// background image
 	/*

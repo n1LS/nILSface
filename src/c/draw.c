@@ -2,7 +2,7 @@
  nILSface (c) 2016-2017 nILS Podewski - nils.podewski.de - All rights reserved.
  ******************************************************************************/
 
-#include "drawing.h"
+#include "draw.h"
 #include "fonts.h"
 
 // month drawing (16x7 bitmap) *************************************************
@@ -79,28 +79,22 @@ void draw_numbers(GContext *ctx, GPoint p, int num)
 
 void draw_numbers_outline(GContext *ctx, GPoint p, int num, kColor color)
 {
-	GColor fg, bg;
+	GColor fg = (color == kBlackOnWhite) ? GColorBlack : GColorWhite;
+	GColor bg = (color == kBlackOnWhite) ? GColorWhite : GColorBlack;
 
-	if (color == kBlackOnWhite)
-	{
-		fg = GColorBlack;
-		bg = GColorWhite;
-	}
-	else
-	{
-		fg = GColorWhite;
-		bg = GColorBlack;
-	}
+	// backgorund / outline
 
 	graphics_context_set_stroke_color(ctx, bg);
 	draw_number_outline(ctx, p, (num / 10) % 10);
-	graphics_context_set_stroke_color(ctx, fg);
-	draw_number(ctx, p, (num / 10) % 10);
 
 	p.x += 10;
 
-	graphics_context_set_stroke_color(ctx, bg);
 	draw_number_outline(ctx, p,  num % 10);
+
+	p.x -= 10;
+
+	// foreground
+
 	graphics_context_set_stroke_color(ctx, fg);
-	draw_number(ctx, p, num % 10);
+	draw_numbers(ctx, p, num);
 }
