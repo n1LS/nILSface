@@ -6,6 +6,8 @@
 
 #include <pebble.h>
 
+int weather_temperature = NO_TEMPERATURE;
+
 static GBitmap *s_current_icon;
 
 enum WeatherKey
@@ -29,6 +31,7 @@ void weather_request()
 	if (!iter)
 	{
 		// Error creating outbound message
+        APP_LOG(APP_LOG_LEVEL_DEBUG, "Error creating outbound message");
 		return;
 	}
 
@@ -40,14 +43,10 @@ void weather_request()
 }
 
 static void inbox_received_callback(DictionaryIterator *iter, void *context) {
-	static char buffer[10];
-
 	// temperature
 
 	Tuple *tuple = dict_read_first(iter);
-	int32_t temperature = tuple->value->int32;
-	snprintf(buffer, 10, "%d°", (int)temperature);
-	// TODO: update info text_layer_set_text(s_city_layer, buffer);
+	weather_temperature = tuple->value->int32;
 
 	// icon
 	tuple = dict_read_next(iter);

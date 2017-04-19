@@ -1,4 +1,4 @@
-var myAPIKey = '';
+var myAPIKey = 'bb0925e696edf0facb38bfc8cfec630c';
 
 function iconFromWeatherId(weatherId) {
   if (weatherId < 600) {
@@ -23,21 +23,28 @@ function fetchWeather(latitude, longitude) {
         var response = JSON.parse(req.responseText);
         var temperature = Math.round(response.main.temp - 273.15);
         var icon = iconFromWeatherId(response.weather[0].id);
-        var city = response.name;
-        console.log(temperature);
-        console.log(icon);
-        console.log(city);
-        Pebble.sendAppMessage({
-          'WEATHER_ICON_KEY': icon,
-          'WEATHER_TEMPERATURE_KEY': temperature + '\xB0C',
-        });
+
+        // Assemble data object
+        var dict = {
+          'Temperature': temperature,
+          'Icon': icon
+        };
+
+        // Send the object
+        Pebble.sendAppMessage(dict, function() {
+          // console.log('Message sent successfully: ' + JSON.stringify(dict));
+        }, function(e) {
+          // console.log('Message failed: ' + JSON.stringify(e));
+        });          
+          
       } else {
-        console.log('Error');
+        // console.log('Error');
       }
     }
   };
   req.send(null);
 }
+
 
 function locationSuccess(pos) {
   var coordinates = pos.coords;
@@ -47,8 +54,8 @@ function locationSuccess(pos) {
 function locationError(err) {
   console.warn('location error (' + err.code + '): ' + err.message);
   Pebble.sendAppMessage({
-    'WEATHER_ICON_KEY': -1,
-    'WEATHER_TEMPERATURE_KEY': 'N/A'
+    'Icon': 'Loc Unavailable',
+    'Temperature': 'N/A'
   });
 }
 

@@ -4,6 +4,7 @@
 
 #include "ui.h"
 #include "draw.h"
+#include "weather.h"
 
 #include <pebble-fctx/fctx.h>
 #include <pebble-fctx/fpath.h>
@@ -30,10 +31,6 @@ static BatteryChargeState s_battery;
 static int s_day;
 static int s_month;
 static bool s_bluetooth;
-
-// external variables **********************************************************
-
-int s_temperature   = NO_TEMPERATURE;
 
 // implementation **************************************************************
 
@@ -146,7 +143,7 @@ int draw_bluetooth_icon(GContext *ctx, GRect bounds)
 
 int draw_temperature(GContext *ctx, GRect bounds)
 {
-	if (s_temperature == NO_TEMPERATURE)
+	if (weather_temperature == NO_TEMPERATURE)
 	{
 		return 0;
 	}
@@ -168,7 +165,7 @@ int draw_temperature(GContext *ctx, GRect bounds)
 	p.y = bounds.origin.y + bounds.size.h - height - 2;
 
 	graphics_context_set_stroke_color(ctx, GColorBlack);
-	draw_numbers_outline(ctx, p, s_temperature, kBlackOnWhite);
+	draw_numbers_outline(ctx, p, weather_temperature, kBlackOnWhite);
 
 	return height + 2;
 }

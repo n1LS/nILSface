@@ -7,10 +7,6 @@
 
 #include <pebble.h>
 
-#define NO_TEMPERATURE -32768
-
-extern int s_temperature;
-
 void ui_redraw(GContext *ctx, GRect bounds);
 
 void ui_set_time(struct tm *tick_time);

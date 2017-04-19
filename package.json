@@ -10,7 +10,10 @@
     "pebble": {
         "displayName": "nILSWatch",
         "enableMultiJS": false,
-        "messageKeys": [],
+        "messageKeys": [
+            "Temperature",
+            "Icon"
+        ],
         "projectType": "native",
         "resources": {
             "media": [
@@ -27,18 +30,6 @@
                     "type": "bitmap"
                 },
                 {
-                    "file": "data/font.ffont",
-                    "name": "FONT_NUMBERS",
-                    "targetPlatforms": null,
-                    "type": "raw"
-                },
-                {
-                    "file": "data/font_bold.ffont",
-                    "name": "FONT_NUMBERS_BOLD",
-                    "targetPlatforms": null,
-                    "type": "raw"
-                },
-                {
                     "file": "images/calendar.png",
                     "name": "BMP_CALENDAR",
                     "storageFormat": "pbi",
@@ -51,6 +42,18 @@
                     "storageFormat": "png",
                     "targetPlatforms": null,
                     "type": "bitmap"
+                },
+                {
+                    "file": "data/font_bold.ffont",
+                    "name": "FONT_NUMBERS_BOLD",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/font.ffont",
+                    "name": "FONT_NUMBERS",
+                    "targetPlatforms": null,
+                    "type": "raw"
                 }
             ]
         },
