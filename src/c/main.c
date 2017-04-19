@@ -5,6 +5,7 @@
 #include <pebble.h>
 
 #include "ui.h"
+#include "weather.h"
 
 static Window *s_main_window;
 static Layer *s_canvas_layer;
@@ -30,13 +31,13 @@ static void update_procedure(Layer *layer, GContext *ctx)
 }
 
 // event fires once, before the obstruction appears or disappears
-static void unobstructed_will_change(GRect final_unobstructed_screen_area, void *context)
+static void unobstructed_change(GRect final_unobstructed_screen_area, void *context)
 {
 	layer_mark_dirty(s_canvas_layer);
 }
 
 // event fires once, after obstruction appears or disappears
-static void unobstructed_did_change(void *context)
+static void unobstructed_changed(void *context)
 {
 	layer_mark_dirty(s_canvas_layer);
 }
@@ -77,8 +78,8 @@ static void window_load(Window *window)
 
 	// subscribe to the unobstructed area events
 	UnobstructedAreaHandlers handlers = {
-		.will_change = unobstructed_will_change,
-		.did_change = unobstructed_did_change
+		.will_change = unobstructed_change,
+		.did_change = unobstructed_changed
 	};
 
 	unobstructed_area_service_subscribe(handlers, NULL);
@@ -114,6 +115,10 @@ static void init()
 	window_stack_push(s_main_window, true);
 
 	tick_handler(time_now, MINUTE_UNIT | HOUR_UNIT);
+
+	app_message_open(64, 64);
+
+	weather_init();
 }
 
 static void deinit() 

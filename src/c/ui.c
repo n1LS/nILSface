@@ -151,12 +151,12 @@ int draw_temperature(GContext *ctx, GRect bounds)
 		return 0;
 	}
 
-	GRect r;
-
-	int height = 17; 
+	int height = 17;
 
 	// background image
 	/*
+	 GRect r;
+
 	 r.origin = GPoint(bounds.size.w - s_side_width, bounds.size.h - yOffs);
 	 r.size = GSize(30, 15);
 	 graphics_context_set_compositing_mode(ctx, GCompOpSet);
@@ -258,7 +258,7 @@ void draw_side_bar(GContext *ctx, GRect bounds)
 	bounds.origin.y += height;
 	bounds.size.h -= height;
 
-	// aligned bottom
+	// aligned bottom:
 
 	// calendar
 	height = draw_calendar(ctx, bounds);
