@@ -4,6 +4,8 @@
 
 #include <pebble.h>
 
+#include "main.h"
+
 #include "ui.h"
 #include "weather.h"
 
@@ -21,7 +23,7 @@ static void tick_handler(struct tm *tick_time, TimeUnits changed)
 	// call for a redraw
 	if (s_canvas_layer)
 	{
-		layer_mark_dirty(s_canvas_layer);
+		app_request_redraw();
 	}
 }
 
@@ -33,13 +35,13 @@ static void update_procedure(Layer *layer, GContext *ctx)
 // event fires once, before the obstruction appears or disappears
 static void unobstructed_change(GRect final_unobstructed_screen_area, void *context)
 {
-	layer_mark_dirty(s_canvas_layer);
+	app_request_redraw();
 }
 
 // event fires once, after obstruction appears or disappears
 static void unobstructed_changed(void *context)
 {
-	layer_mark_dirty(s_canvas_layer);
+	app_request_redraw();
 }
 
 void bluetooth_handler(bool connected)
@@ -47,7 +49,7 @@ void bluetooth_handler(bool connected)
 	// store connection status
 	ui_set_bluetooth(connected);
 
-	layer_mark_dirty(s_canvas_layer);
+	app_request_redraw();
 }
 
 void battery_handler(BatteryChargeState charge)
@@ -55,7 +57,7 @@ void battery_handler(BatteryChargeState charge)
 	// store battery life
 	ui_set_battery(charge);
 
-	layer_mark_dirty(s_canvas_layer);
+	app_request_redraw();
 }
 
 // App *************************************************************************
@@ -127,6 +129,11 @@ static void deinit()
     
     battery_state_service_unsubscribe();
     bluetooth_connection_service_unsubscribe();
+}
+
+void app_request_redraw() 
+{
+	layer_mark_dirty(s_canvas_layer);
 }
 
 // main ************************************************************************

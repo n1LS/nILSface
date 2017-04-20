@@ -16,4 +16,6 @@ void ui_set_bluetooth(bool connected);
 void ui_init();
 void ui_destroy();
 
+void ui_request_redraw();
+
 #endif

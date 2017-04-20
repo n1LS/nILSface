@@ -3,24 +3,22 @@
  ******************************************************************************/
 
 #include "weather.h"
+#include "main.h"
+#include "ui.h"
 
 #include <pebble.h>
 
-int weather_temperature = NO_TEMPERATURE;
+int s_temperature = NO_TEMPERATURE;
 
 static GBitmap *s_current_icon;
+static uint32_t s_current_icon_id = 0xffffffff;
 
-enum WeatherKey
+static const uint32_t WEATHER_ICONS[] = 
 {
-	WEATHER_ICON_KEY = 0x0,         // TUPLE_INT
-	WEATHER_TEMPERATURE_KEY = 0x1,  // TUPLE_CSTRING
-};
-
-static const uint32_t WEATHER_ICONS[] = {
-	0,
-	1,
-	2,
-	3
+	RESOURCE_ID_BMP_WEATHER_SUNNY,
+	RESOURCE_ID_BMP_WEATHER_CLOUDY,
+	RESOURCE_ID_BMP_WEATHER_RAINY,
+	RESOURCE_ID_BMP_WEATHER_SNOWY
 };
 
 void weather_request()
@@ -46,21 +44,36 @@ static void inbox_received_callback(DictionaryIterator *iter, void *context) {
 	// temperature
 
 	Tuple *tuple = dict_read_first(iter);
-	weather_temperature = tuple->value->int32;
+	s_temperature = tuple->value->int32;
 
 	// icon
 	tuple = dict_read_next(iter);
 
-	int icon = tuple->value->uint8;
+	uint32_t icon = tuple->value->uint8;
 
-	if (s_current_icon)
+	// free icon if we have one and it changed
+	if (s_current_icon && s_current_icon_id != icon)
 	{
 		gbitmap_destroy(s_current_icon);
 	}
 
-	s_current_icon = gbitmap_create_with_resource(WEATHER_ICONS[icon]);
-	// bitmap_layer_set_compositing_mode(s_icon_layer, GCompOpSet);
-	// bitmap_layer_set_bitmap(s_icon_layer, s_icon_bitmap);
+	// load image if we don't already have one
+	if (!s_current_icon)
+	{
+		s_current_icon = gbitmap_create_with_resource(WEATHER_ICONS[icon]);		
+	}
+
+	app_request_redraw();
+}
+
+GBitmap *weather_get_icon()
+{
+	return s_current_icon;
+}
+
+int weather_get_temperature()
+{
+	return s_temperature;
 }
 
 void weather_init()

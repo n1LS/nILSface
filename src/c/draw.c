@@ -45,7 +45,7 @@ void draw_number(GContext *ctx, GPoint p, int num)
 	}
 }
 
-void draw_number_outline(GContext *ctx, GPoint p, int num)
+void prv_draw_number_outline(GContext *ctx, GPoint p, int num)
 {
 	// offset origin to match draw_number_position
 
@@ -77,7 +77,7 @@ void draw_numbers(GContext *ctx, GPoint p, int num)
 	draw_number(ctx, p, num % 10);
 }
 
-void draw_numbers_outline(GContext *ctx, GPoint p, int num, kColor color)
+void draw_number_outline(GContext *ctx, GPoint p, int num, kColor color)
 {
 	GColor fg = (color == kBlackOnWhite) ? GColorBlack : GColorWhite;
 	GColor bg = (color == kBlackOnWhite) ? GColorWhite : GColorBlack;
@@ -85,16 +85,18 @@ void draw_numbers_outline(GContext *ctx, GPoint p, int num, kColor color)
 	// backgorund / outline
 
 	graphics_context_set_stroke_color(ctx, bg);
-	draw_number_outline(ctx, p, (num / 10) % 10);
-
-	p.x += 10;
-
-	draw_number_outline(ctx, p,  num % 10);
-
-	p.x -= 10;
+	prv_draw_number_outline(ctx, p, num);
 
 	// foreground
 
 	graphics_context_set_stroke_color(ctx, fg);
-	draw_numbers(ctx, p, num);
+	draw_number(ctx, p, num);
+}
+
+void draw_numbers_outline(GContext *ctx, GPoint p, int num, kColor color)
+{
+	draw_number_outline(ctx, p, (num / 10) % 10, color);
+
+	p.x += 9;
+	draw_number_outline(ctx, p, num % 10, color);
 }

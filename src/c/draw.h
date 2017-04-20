@@ -18,8 +18,9 @@ typedef enum kColor
 
 void draw_month(GContext *ctx, GPoint p, int month);
 void draw_number(GContext *ctx, GPoint p, int num);
-void draw_number_outline(GContext *ctx, GPoint p, int num);
 void draw_numbers(GContext *ctx, GPoint p, int num);
+
+void draw_number_outline(GContext *ctx, GPoint p, int num, kColor color);
 void draw_numbers_outline(GContext *ctx, GPoint p, int num, kColor color);
 
 #endif

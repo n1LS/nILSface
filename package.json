@@ -44,6 +44,34 @@
                     "type": "bitmap"
                 },
                 {
+                    "file": "images/weather_sun.png",
+                    "name": "BMP_WEATHER_SUNNY",
+                    "storageFormat": "png",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/weather_snow.png",
+                    "name": "BMP_WEATHER_SNOWY",
+                    "storageFormat": "png",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/weather_rain.png",
+                    "name": "BMP_WEATHER_RAINY",
+                    "storageFormat": "png",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/weather_cloud.png",
+                    "name": "BMP_WEATHER_CLOUDY",
+                    "storageFormat": "png",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
                     "file": "data/font_bold.ffont",
                     "name": "FONT_NUMBERS_BOLD",
                     "targetPlatforms": null,

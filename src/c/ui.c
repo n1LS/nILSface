@@ -143,29 +143,86 @@ int draw_bluetooth_icon(GContext *ctx, GRect bounds)
 
 int draw_temperature(GContext *ctx, GRect bounds)
 {
-	if (weather_temperature == NO_TEMPERATURE)
+	int temp = weather_get_temperature();
+
+	if (temp == NO_TEMPERATURE)
 	{
 		return 0;
 	}
 
-	int height = 17;
+	const int height_text = 17;
+	const int height_icon = 30;
+	const int height = height_text + 2 + height_icon;
 
-	// background image
-	/*
-	 GRect r;
+	// icon
+	GRect r;
 
-	 r.origin = GPoint(bounds.size.w - s_side_width, bounds.size.h - yOffs);
-	 r.size = GSize(30, 15);
-	 graphics_context_set_compositing_mode(ctx, GCompOpSet);
-	 graphics_draw_bitmap_in_rect(ctx, s_bmp_temperature, r);
-	 */
+	r.origin = GPoint(bounds.origin.x, bounds.origin.y + (bounds.size.h - height) / 2);
+	r.size = GSize(30, height_icon);
+	graphics_context_set_compositing_mode(ctx, GCompOpSet);
+	graphics_draw_bitmap_in_rect(ctx, weather_get_icon(), r);
 
+	// draw temperature
 	GPoint p;
-	p.x = bounds.origin.x + 5;
-	p.y = bounds.origin.y + bounds.size.h - height - 2;
+	p.x = bounds.origin.x;
+	p.y = r.origin.y + height_icon;
+
+	bool negative = (temp < 0);
+	
+	int w = 2;
+
+	if (negative) 
+	{
+		temp = -temp;
+		w += 6;
+	}
+	
+	bool two_digits = (temp > 9);
+
+	w += (two_digits ? 19 : 10);
+	p.x += (1 + bounds.size.w - w) / 2;
+
+	if (negative)
+	{
+		// draw the "-"
+		r = GRect(p.x, p.y + 8, 6, 4);
+
+		graphics_context_set_stroke_color(ctx, GColorWhite);
+		graphics_draw_rect(ctx, r);
+
+		r = GRect(p.x + 1, p.y + 9, 4, 2);
+		graphics_context_set_fill_color(ctx, GColorBlack);
+		graphics_fill_rect(ctx, r, 0, GCornerNone);
+
+		p.x += 6;
+	}
+	
+	// strip the "-"
 
 	graphics_context_set_stroke_color(ctx, GColorBlack);
-	draw_numbers_outline(ctx, p, weather_temperature, kBlackOnWhite);
+
+	if (two_digits)
+	{
+		draw_numbers_outline(ctx, p, temp, kBlackOnWhite);
+	}
+	else 
+	{
+		draw_number_outline(ctx, p, temp, kBlackOnWhite);
+	}
+
+	// draw the °
+
+	p.x += (two_digits ? 17 : 8);
+	p.y += 2;
+
+	r = GRect(p.x, p.y, 4, 4);
+
+	graphics_context_set_stroke_color(ctx, GColorWhite);
+	graphics_draw_rect(ctx, r);
+
+	r = GRect(p.x + 1, p.y + 1, 2, 2);
+	graphics_context_set_fill_color(ctx, GColorBlack);
+	graphics_fill_rect(ctx, r, 0, GCornerNone);
 
 	return height + 2;
 }
