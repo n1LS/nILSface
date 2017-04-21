@@ -11,6 +11,7 @@
 
 static Window *s_main_window;
 static Layer *s_canvas_layer;
+static int weather_refresh_timer = 0;
 
 // event handler ***************************************************************
 
@@ -24,6 +25,13 @@ static void tick_handler(struct tm *tick_time, TimeUnits changed)
 	if (s_canvas_layer)
 	{
 		app_request_redraw();
+	}
+
+	// periodically check the weather
+	if (--weather_refresh_timer <= 0) 
+	{
+		weather_refresh_timer = 15;
+		weather_request();
 	}
 }
 

@@ -9,6 +9,7 @@
 
 #define NO_TEMPERATURE -32768
 
+void     weather_request();
 void     weather_init();
 GBitmap *weather_get_icon();
 int      weather_get_temperature();
