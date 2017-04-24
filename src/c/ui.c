@@ -141,7 +141,7 @@ int draw_bluetooth_icon(GContext *ctx, GRect bounds)
 	return height + 2;
 }
 
-int draw_temperature(GContext *ctx, GRect bounds)
+int draw_weather(GContext *ctx, GRect bounds)
 {
 	int temp = weather_get_temperature();
 
@@ -154,16 +154,22 @@ int draw_temperature(GContext *ctx, GRect bounds)
 	const int height_icon = 30;
 	const int height = height_text + 2 + height_icon;
 
-	// icon
 	GRect r;
 
-	r.origin = GPoint(bounds.origin.x, bounds.origin.y + (bounds.size.h - height) / 2);
-	r.size = GSize(30, height_icon);
-	graphics_context_set_compositing_mode(ctx, GCompOpSet);
-	graphics_draw_bitmap_in_rect(ctx, weather_get_icon(), r);
+	// draw icon
+	GBitmap *icon = weather_get_icon();
+
+	if (icon)
+	{
+		r.origin = GPoint(bounds.origin.x, bounds.origin.y + (bounds.size.h - height) / 2);
+		r.size = GSize(30, height_icon);
+		graphics_context_set_compositing_mode(ctx, GCompOpSet);
+		graphics_draw_bitmap_in_rect(ctx, icon, r);
+	}
 
 	// draw temperature
 	GPoint p;
+
 	p.x = bounds.origin.x;
 	p.y = r.origin.y + height_icon;
 
@@ -323,7 +329,7 @@ void draw_side_bar(GContext *ctx, GRect bounds)
 	bounds.size.h -= height;
 
 	// weather
-	height = draw_temperature(ctx, bounds);
+	height = draw_weather(ctx, bounds);
 	bounds.size.h -= height;
 }
 

@@ -18,6 +18,8 @@ static int weather_refresh_timer = 0;
 // minute_unit tick handler
 static void tick_handler(struct tm *tick_time, TimeUnits changed)
 {
+	APP_LOG(APP_LOG_LEVEL_DEBUG, "tick_handler() {");
+
 	// store time
 	ui_set_time(tick_time);
 	
@@ -30,9 +32,13 @@ static void tick_handler(struct tm *tick_time, TimeUnits changed)
 	// periodically check the weather
 	if (--weather_refresh_timer <= 0) 
 	{
-		weather_refresh_timer = 15;
+		APP_LOG(APP_LOG_LEVEL_DEBUG, "  weather_request();");
+
+		weather_refresh_timer = 1;
 		weather_request();
 	}
+
+	APP_LOG(APP_LOG_LEVEL_DEBUG, "}");
 }
 
 static void update_procedure(Layer *layer, GContext *ctx)
@@ -100,18 +106,24 @@ static void window_load(Window *window)
 
 static void window_unload(Window *window)
 {
-	layer_destroy(s_canvas_layer);
-
 	unobstructed_area_service_unsubscribe();
+
+	layer_destroy(s_canvas_layer);
 
 	ui_destroy();
 }
 
 static void init()
 {
-	const time_t t = time(NULL);
-	struct tm *time_now = localtime(&t);
-	
+	weather_init();
+
+	AppMessageResult result = app_message_open(128, 32);
+
+	if (result != APP_MSG_OK)
+	{
+		APP_LOG(APP_LOG_LEVEL_DEBUG, "WARNING: app_message_open() -> %d", result);
+	}
+
     battery_state_service_subscribe(battery_handler);
     bluetooth_connection_service_subscribe(bluetooth_handler);
 
@@ -123,20 +135,16 @@ static void init()
 	});
 
 	window_stack_push(s_main_window, true);
-
-	tick_handler(time_now, MINUTE_UNIT | HOUR_UNIT);
-
-	app_message_open(64, 64);
-
-	weather_init();
 }
 
 static void deinit() 
 {
+	battery_state_service_unsubscribe();
+	bluetooth_connection_service_unsubscribe();
+
 	window_destroy(s_main_window);
-    
-    battery_state_service_unsubscribe();
-    bluetooth_connection_service_unsubscribe();
+
+	weather_destroy();
 }
 
 void app_request_redraw() 

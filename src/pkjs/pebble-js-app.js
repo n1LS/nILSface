@@ -1,6 +1,7 @@
 var myAPIKey = 'bb0925e696edf0facb38bfc8cfec630c';
 var lastIcon = -1;
 var lastTemperature = -9999;
+var ready = false;
 
 function iconFromWeatherId(weatherId) {
     if (weatherId < 600) {
@@ -14,15 +15,26 @@ function iconFromWeatherId(weatherId) {
     }
 }
 
-function fetchWeather(latitude, longitude) {
-    var req = new XMLHttpRequest();
+function fetchWeather(latitude, longitude)
+{
+	if (!ready)
+	{
+		console.log('(i) featchWeather before ready. Ignoring.');
+		return;
+	}
+
+	console.log('(i) featchWeather() requesting');
+
+	var req = new XMLHttpRequest();
     req.open('GET', 'http://api.openweathermap.org/data/2.5/weather?' + 
         'lat=' + latitude + '&lon=' + longitude + '&cnt=1&appid=' + myAPIKey, true);
     req.onload = function () {
-        if (req.readyState === 4) {
+
+		if (req.readyState === 4) {
             if (req.status === 200) {
-                console.log(req.responseText);
-                var response = JSON.parse(req.responseText);
+                console.log('Weather request returns:\n', req.responseText);
+
+				var response = JSON.parse(req.responseText);
                 var temperature = Math.round(response.main.temp - 273.15);
                 var icon = iconFromWeatherId(response.weather[0].id);
 
@@ -40,25 +52,30 @@ function fetchWeather(latitude, longitude) {
                         // success
                     }, function (e) {
                         // error sending message
+						console.log('/!\\ ERROR sending message ', e.message);
                     });
                 } 
             }
         }
     };
+
     req.send(null);
 }
 
 
 function locationSuccess(pos) {
-    var coordinates = pos.coords;
+	console.log('(i) Location success');
+
+	var coordinates = pos.coords;
     fetchWeather(coordinates.latitude, coordinates.longitude);
 }
 
 function locationError(err) {
-    console.warn('location error (' + err.code + '): ' + err.message);
-    Pebble.sendAppMessage({
-        'Icon': 'Loc Unavailable',
-        'Temperature': 'N/A'
+    console.warn('/!\\ Location Error (' + err.code + '): ' + err.message);
+
+	Pebble.sendAppMessage({
+        'Icon': -1,
+        'Temperature': -273
     });
 }
 
@@ -67,23 +84,22 @@ var locationOptions = {
     'maximumAge': 60000
 };
 
-Pebble.addEventListener('ready', function (e) {
-    console.log('connect!' + e.ready);
-    window.navigator.geolocation.getCurrentPosition(locationSuccess, locationError,
-        locationOptions);
-    console.log(e.type);
-});
+function readyEvent(e)
+{
+	console.log('(i) Ready Event');
+
+	ready = true;
+}
+
+Pebble.addEventListener('ready', readyEvent);
 
 Pebble.addEventListener('appmessage', function (e) {
-    window.navigator.geolocation.getCurrentPosition(locationSuccess, locationError,
+	console.log('(i) AppMessage Event');
+
+	window.navigator.geolocation.getCurrentPosition(locationSuccess, locationError,
         locationOptions);
-    console.log(e.type);
-    console.log(e.payload.temperature);
-    console.log('message!');
 });
 
 Pebble.addEventListener('webviewclosed', function (e) {
-    console.log('webview closed');
-    console.log(e.type);
-    console.log(e.response);
+    console.log('(i) WebviewClosed Event');
 });
