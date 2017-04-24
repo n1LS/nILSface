@@ -18,7 +18,7 @@ static int weather_refresh_timer = 0;
 // minute_unit tick handler
 static void tick_handler(struct tm *tick_time, TimeUnits changed)
 {
-	APP_LOG(APP_LOG_LEVEL_DEBUG, "tick_handler() {");
+	// APP_LOGAPP_LOG_LEVEL_DEBUG, "tick_handler() {");
 
 	// store time
 	ui_set_time(tick_time);
@@ -32,13 +32,13 @@ static void tick_handler(struct tm *tick_time, TimeUnits changed)
 	// periodically check the weather
 	if (--weather_refresh_timer <= 0) 
 	{
-		APP_LOG(APP_LOG_LEVEL_DEBUG, "  weather_request();");
+		// APP_LOGAPP_LOG_LEVEL_DEBUG, "  weather_request();");
 
 		weather_refresh_timer = 15;
 		weather_request();
 	}
 
-	APP_LOG(APP_LOG_LEVEL_DEBUG, "}");
+	// APP_LOGAPP_LOG_LEVEL_DEBUG, "}");
 }
 
 static void update_procedure(Layer *layer, GContext *ctx)
@@ -121,7 +121,7 @@ static void init()
 
 	if (result != APP_MSG_OK)
 	{
-		APP_LOG(APP_LOG_LEVEL_DEBUG, "WARNING: app_message_open() -> %d", result);
+		// APP_LOGAPP_LOG_LEVEL_DEBUG, "WARNING: app_message_open() -> %d", result);
 	}
 
     battery_state_service_subscribe(battery_handler);

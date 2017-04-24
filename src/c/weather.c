@@ -31,7 +31,7 @@ void weather_request()
 	if (!iter || result != APP_MSG_OK)
 	{
 		// Error creating outbound message
-        APP_LOG(APP_LOG_LEVEL_DEBUG, "Error creating outbound message [%d]", result);
+        // APP_LOGAPP_LOG_LEVEL_DEBUG, "Error creating outbound message [%d]", result);
 		return;
 	}
 
@@ -49,22 +49,22 @@ static void inbox_received_callback(DictionaryIterator *iter, void *context) {
 
 	if (!tuple)
 	{
-		APP_LOG(APP_LOG_LEVEL_DEBUG, "/!\\ Error reading 1st tuple -> crash?");
+		// APP_LOGAPP_LOG_LEVEL_DEBUG, "/!\\ Error reading 1st tuple -> crash?");
 	}
 
 	s_temperature = tuple->value->int32;
-	APP_LOG(APP_LOG_LEVEL_DEBUG, "(i) TEMPERATURE = %d", s_temperature);
+	// APP_LOGAPP_LOG_LEVEL_DEBUG, "(i) TEMPERATURE = %d", s_temperature);
 
 	// icon
 	tuple = dict_read_next(iter);
 
 	if (!tuple)
 	{
-		APP_LOG(APP_LOG_LEVEL_DEBUG, "/!\\ Error reading 2nd tuple -> crash?");
+		// APP_LOGAPP_LOG_LEVEL_DEBUG, "/!\\ Error reading 2nd tuple -> crash?");
 	}
 
 	int icon = tuple->value->int32;
-	APP_LOG(APP_LOG_LEVEL_DEBUG, "(i) ICON = %d", icon);
+	// APP_LOGAPP_LOG_LEVEL_DEBUG, "(i) ICON = %d", icon);
 
 	// free icon if we have one and it changed
 	if (s_current_icon && s_current_icon_id != icon)
@@ -76,13 +76,13 @@ static void inbox_received_callback(DictionaryIterator *iter, void *context) {
 	// load image if we don't already have one
 	if (!s_current_icon && (icon >= 0) && (icon < s_number_of_icons))
 	{
-		APP_LOG(APP_LOG_LEVEL_DEBUG, "(i) Reloading the image");
+		// APP_LOGAPP_LOG_LEVEL_DEBUG, "(i) Reloading the image");
 		s_current_icon = gbitmap_create_with_resource(s_weather_icons[icon]);
 	}
 
 	app_request_redraw();
 
-	APP_LOG(APP_LOG_LEVEL_DEBUG, "(i) Done with the inbox callback");
+	// APP_LOGAPP_LOG_LEVEL_DEBUG, "(i) Done with the inbox callback");
 }
 
 GBitmap *weather_get_icon()
