@@ -34,7 +34,7 @@ static void tick_handler(struct tm *tick_time, TimeUnits changed)
 	{
 		APP_LOG(APP_LOG_LEVEL_DEBUG, "  weather_request();");
 
-		weather_refresh_timer = 1;
+		weather_refresh_timer = 15;
 		weather_request();
 	}
 
